@@ -1,0 +1,166 @@
+ABOUT FILE(S)
+    Euclidian_rules.js  - Extensible rules-file
+    GNU LICENSE         - GNU/LGNU license-file of user's rights
+    logic.css           - CSS markup
+    logic.htm           - HTM markup / main
+    logic.js            - Pretty-text renderer / worker thread spawn
+    LOGIC.zip           - compressed euclid folder
+    MD5.js              - MD5 hashing algorithm
+    README              - Description of euclid app and associated files
+    ThreadWorker_00.js  - worker thread for logic.js
+
+
+EXAMPLE 1
+
+// example sentence structure
+f ( x ) = {1} over {sigma sqrt{2 pi} }e^-{{(x-mu)^2} over {2 sigma^2}}
+newline // aesthetic formatting
+newline
+%--------------------------------------------------------------------------
+// Includes
+/* 
+  Identities & comments 
+*/  
+x over x = 1
+x times 0 = 0
+x over 0 = undefined
+0 over x = 0
+sum from { i = 1 } to { N } x_{i minus 1} times x_i = x raised N
+
+%--------------------------------------------------------------------------
+a times b = c
+h times b = j
+j times { 1 over h } = k
+
+Prove: k times { 1 over b } = 1
+
+
+EXAMPLE 2
+
+f ( x ) = {1} over {sigma sqrt{2 pi} }e^-{{(x-mu)^2} over {2 sigma^2}} 
+newline 
+newline
+C= pi cdot d = 2 cdot pi cdot r
+newline 
+newline
+f ( x ) = sum from { i = 0 } to { infinity } { {f raised {(i)}(0)} over {i!} x raised i}
+newline 
+newline
+left [ matrix{1 # 2 ## 3 # 4 } right ]
+newline 
+newline
+
+
+EXAMPLE 3
+
+#proof regular-expressions
+Prove: z rlimplies(=>) za+?b+?c*
+zaacbbcac rlimplies za+?b+?c*
+ac rlimplies za+?b+?c*
+a rlimplies za+?b+?c*
+c rlimplies za+?b+?c*
+
+
+EXAMPLE 4
+
+Prove { a + b + c = d }
+x = a
+x + y + z = a
+x + y + z + b + c = d
+
+
+HOW EUCLID WORKS (HOW EUCLID BUILDS INTERNAL ASSOCIATIONS..
+
+    Euclid maps to a network topology ontology
+
+        Example
+
+            Prove { x times b = c }
+            x = a
+            a times b = c
+            
+                INTERNAL REPRESENTATION
+                
+                a times b = c
+                            
+                x times b = c
+                .
+                .
+                a times b = \
+                             c
+                x times b = /
+                .
+                .
+                a times \
+                         b = c
+                x times /
+                
+                Euclid uses axioms you provide to build an internal representation, or network,
+                (a connected DiGraph) and iff Euclid can then traverse from x to c, 
+                the theorem is proved.
+                
+                Notice however that the node is not collapsed any further though!
+                This is to prevent non-determinism (NFA loops)
+                Operators are never used to build nodes.
+
+
+BUGFIX
+    SYMP: ahs-emscripten intf 6 parses only enums having capitalized words
+    SOLU: Had to fix (so lazy)
+    
+    SYMP: [this.parser{}] undefined!
+    SOLU: revert to global space
+    
+    SYMP: whileloop:parser() results in infinite tail-recursion (potential buffer-overflow)
+    SOLU: parser() should only check existence of node, without traversing it (scalable)
+    
+    SYMP: loader not defined
+    SOLU: (1) check for matching braces, or (2) broken regular expressions, (3) ..scoping issues
+
+    SYMP: upon return from Array.map(), <TR> table fails to render
+    SOLU: assign result of Array.map() to variable
+
+    SYMP: <span..></span> tags <td> render incorrectly
+    SOLU: substitute <div..></div> tags
+    
+    SYMP: Comment.activate_lineComment() fails to activate
+    SOLU: out-of-order assignments in Parameter-list (fixed)
+    
+    SYMP: FormulaOperator formatting incorrect in piecewise statement
+    HINT: Use html table 
+
+NOTES
+    Best strategy for theorem-proving: 
+        break theorems into proofing steps
+        migrate steps to modules then verify modules
+        After using Euclid Reasoner to generate modules which
+            guarantee coverage
+        Euclid Logic can be used to mathematically solve the modules
+    Multiplication - a cdot b, a times b, a b ( not a x b! > axb, or a cross b > a x b )
+    Syntaxer_NFA_settings.js is extensible
+        1. note : log _ a e generates an error
+        2. open Syntaxer_NFA_settings.js and set line 59136 (underscore) = 1
+        3. refresh page
+
+
+TODO - e solver
+    ClauseParse
+    FormulaAndClauseSetParse
+
+
+TODO - euclid
+    Euclid uses math-rule inferencing as well as programmatic logic
+    Euclid uses extensible markup, allowing extensibility/redefinition of terms
+    Mentor: (proofing strategy)
+        1   map sentence to proper grammar (to verify semantics), 
+        2   parse, using an inference rule-based substitution - 
+            (a)   try to match the largest possble pattern,
+            (b)   progessively match smaller (Top/Down traversal)
+    allow suggestions while typing so users dont break their rules database (eg real isa root x -vs- root hasa real x and x isa real)
+    resync rules database upon refresh
+    Allow bipolar/zero-polarity clause insertion (so lhs/rhs insensitive insertions)
+    Add Euclidian rules (via import file) also provide the [rules] file as correct working examples to be followed
+    on errors, dump network topology (topology dump)
+    fix formatting bugs: x [raised] y [raised] z to show correct formatting
+    emit pretty-text from each window to cssWindow
+
