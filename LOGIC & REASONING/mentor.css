@@ -1,0 +1,91 @@
+
+.cssCode {
+    width:100%;
+    height:45%;
+    font-family:'liberation mono';
+    font-size:12px;
+}
+.cssTranslated {
+    width:100%;
+    height:45%;
+    font-family:'liberation mono';
+    font-size:12px;
+}
+.cssGNU {
+    font-family:liberation serif;
+    font-size:14px;
+    display:none;
+    height:92%;
+    width:100%;
+    overflow:scroll;
+}
+.cssHELP {
+    font-family:liberation sans;
+    font-size:14px;
+    display:none;
+    height:92%;
+    width:100%;
+    overflow:scroll;
+}
+.cssWindow {
+    font-size:10; 
+    padding-left:30px; 
+    font-family:'liberation serif';
+}
+.cssWindowTitle {
+    font-size:45;
+}
+.cssMENU_LABEL {
+    color:#f4f4f4;
+    text-decoration:none;
+}
+#cssCOVER {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0%,0%,0%,0.75);
+    z-index:1001;
+    display:none;
+}
+#cssMENU {
+    top:15%;
+    left:32%;
+    width:40%;
+    height:75%;
+    margin:0 auto;
+    position:fixed;
+    z-index:1002;
+    display:none;
+    border:1.5px solid #4e4e4e;
+    border-radius:16px;
+    background-color:rgba(0%,0%,0%,1);
+    font-family:liberation serif;
+    font-size:14px;
+}
+#cssMENU:target,#cssMENU:target + #cssCOVER {
+    display:block;
+}
+.cssCANCEL {
+    display:block;
+    position:absolute;
+    top:3px;
+    right:2px;
+    color:#4e4e4e;
+    height:30px;
+    width:35px;
+    font-size:16px;
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+}
+.cssFRAME {
+    padding:25px;
+}
+.cssCONTENT {
+    display:none;
+    height:92%;
+    width:100%;
+    overflow:scroll;
+}

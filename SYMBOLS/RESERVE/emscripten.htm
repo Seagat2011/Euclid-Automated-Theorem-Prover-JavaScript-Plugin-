@@ -1,0 +1,38 @@
+<html xmlns="http://www.w3.org/1999/xhtml" hasBrowserHandlers="true">
+<head>
+<title>emscripten 1.0.0.0</title>
+<meta http-equiv="Content-Type" content="application/html; charset=utf-8"/>
+<link rel='stylesheet' media='all' href='emscripten.css'>
+<script src=MD5.js></script>
+<!--<script src=Syntaxer.js></script>-->
+<!--<script src=Lexer.js></script>-->
+<script src=emscripten.js></script>
+</head>
+<body onload='loader()'>
+
+<table>
+<tbody id=formulaTBL>
+</tbody>
+</table>
+
+<textarea class=cssCode id=srcCode placeholder='Enter keyword then press translate button below to translate'></textarea><p>
+<input id=btnTranslate type=button value='click to translate' onclick='translatorTool()'/>
+<input id=btnTranslate type=button value='click to generate MD5' onclick='MD5()'/>
+<input id=btnTranslate type=button value='clear source window' onclick='clear_window()'/>
+<select id=selBox>
+<option default>  Header  File  </option>
+<option>  Source File  </option>
+<option>  #define var  </option>
+<option>  #define func  </option>
+<option>  Source File (Multiple funcs)  </option>
+<option>  Source Files (long returnTypes)  </option>
+<option>  Header Files (#defs &amp; (enum/typedef) structs)  </option>
+<option>  Scope  </option>
+<option>  Comments  </option>
+<option>  MD5 (Multiline)  </option>
+<option>  NFA Tool  </option>
+<option>  Experimental  </option>
+</select><p/>
+<textarea class=cssTranslated id=srcTranslated placeholder='Author - Abdul H. Shabazz, Copyright (c) 2015 - All Rights Reserved'></textarea>
+</body>
+</html>

@@ -1,0 +1,6351 @@
+%PDF-1.3
+%«Ïè¢
+1 0 obj
+<</Type/Font/Subtype/Type1/Name/F1/BaseFont/Helvetica/Encoding/WinAnsiEncoding>>
+endobj
+2 0 obj
+<</Type/Font/Subtype/Type1/Name/F2/BaseFont/Helvetica-Bold/Encoding/WinAnsiEncoding>>
+endobj
+3 0 obj
+<</Type/Font/Subtype/Type1/Name/F3/BaseFont/Helvetica-Oblique/Encoding/WinAnsiEncoding>>
+endobj
+4 0 obj
+<</Type/Font/Subtype/Type1/Name/F4/BaseFont/Helvetica-BoldOblique/Encoding/WinAnsiEncoding>>
+endobj
+5 0 obj
+<</Length 25598>>
+stream
+BT 1 0 0 1 72 763 Tm
+/F1 9 Tf 0 0 0 rg 0.498 0.498 0 rg (# Secondary Mathematics)Tj
+0 -10.8 TD
+(# Engineering Analysis)Tj
+T*
+(    )Tj
+(# differentiation)Tj
+T*
+(        )Tj
+0 0 0 rg (dx)Tj
+( )Tj
+(dn)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+(dn)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+/F1 9 Tf 0.502 0.502 0.502 rg (   # )Tj
+0 0 0 rg (A)Tj
+/F2 9 Tf (-)Tj
+/F1 9 Tf (Z)Tj
+( )Tj
+(constants)Tj
+/F2 9 Tf (;)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+/F2 9 Tf (-)Tj
+/F1 9 Tf (z)Tj
+( )Tj
+(Expressions)Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf 0.306 0.306 0.306 rg (' = { x ')Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (y)Tj
+( )Tj
+(' })Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(cdot)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf 0.306 0.306 0.306 rg (' =  { x ')Tj
+( )Tj
+0 0 0 rg (cdot)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(cdot)Tj
+( )Tj
+(y)Tj
+( )Tj
+(' })Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(over)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf 0.306 0.306 0.306 rg (' = { { x ')Tj
+( )Tj
+0 0 0 rg (cdot)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(cdot)Tj
+( )Tj
+(y)Tj
+( )Tj
+(' } } over { y raised 2 })Tj
+T*
+(        )Tj
+(dv)Tj
+( )Tj
+(dn)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (dv)Tj
+( )Tj
+(dx)Tj
+( )Tj
+(cdot)Tj
+( )Tj
+(dx)Tj
+( )Tj
+(dn)Tj
+0.502 0.502 0.502 rg (     # )Tj
+0 0 0 rg (chain)Tj
+( )Tj
+(rule)Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = c cdot { x raised { c minus 1 } })Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (e)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = e raised x)Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = { c raised x } cdot { ln c })Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = cos x)Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = neg { sin x })Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (tan)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = sec raised 2 cdot x)Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cot)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = neg { csc raised 2 cdot x })Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sinh)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = cosh x)Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (coshx)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = sinh x)Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (ln)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = 1 over x)Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (log)Tj
+( )Tj
+(_)Tj
+( )Tj
+(a)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = { log _ a e } over x)Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (arc)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = 1 over { sqrt { 1 minus x raised 2 } })Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (arc)Tj
+( )Tj
+(cos)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = neg { 1 over { sqrt { 1 minus x raised 2 } } })Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (arc)Tj
+( )Tj
+(tan)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = 1 over { 1 plus x raised 2 })Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (arc)Tj
+( )Tj
+(cot)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (' = neg 1 over { 1 plus x raised 2 })Tj
+T*
+(    )Tj
+0.498 0.498 0 rg (# integration)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(times)Tj
+( )Tj
+(v)Tj
+( )Tj
+0.306 0.306 0.306 rg (' } dx = { u times v } minus int { u ')Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(plus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(plus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf (,)Tj
+( )Tj
+/F1 9 Tf (given)Tj
+( )Tj
+(n)Tj
+( )Tj
+(noteq)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+(  )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (ln)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (abs)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (e)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(times)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (e)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(times)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+(+)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (tan)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (ln)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (abs)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (cot)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (ln)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (abs)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (sec)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (ln)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (abs)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sec)Tj
+( )Tj
+(x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(tan)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (csc)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (ln)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (abs)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (csc)Tj
+( )Tj
+(x)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(cot)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(c)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (arc)Tj
+( )Tj
+(tan)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+(+)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+(sqrt)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (arc)Tj
+( )Tj
+(sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(+)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+(sqrt)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(c)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (inv)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sinh)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(n)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+(sqrt)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(c)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (inv)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cosh)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(n)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+(x)Tj
+( )Tj
+(minus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+0 0.498 0.498 rg (4)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+(+)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+(x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+0 0.498 0.498 rg (4)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+(+)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (tan)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (tan)Tj
+( )Tj
+(x)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (+)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (cot)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cot)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (+)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (ln)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (ln)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (e)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (cdot)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(b)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (e)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(b)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (cdot)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(b)Tj
+( )Tj
+(x)Tj
+( )Tj
+(minus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(cdot)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(b)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(c)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (int)Tj
+( )Tj
+0 0 0 rg ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (e)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(times)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (e)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(b)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(times)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(times)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(c)Tj
+T*
+(    )Tj
+0.498 0.498 0 rg (# Polar Coords)Tj
+T*
+(        )Tj
+0 0 0 rg (x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (r)Tj
+( )Tj
+(times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(theta)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (y)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (r)Tj
+( )Tj
+(times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(theta)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (r)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (sqrt)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (y)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+T*
+(        )Tj
+/F1 9 Tf (theta)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (arc)Tj
+( )Tj
+(tan)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (y)Tj
+( )Tj
+(over)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (dx)Tj
+( )Tj
+(dy)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (r)Tj
+( )Tj
+(dr)Tj
+( )Tj
+(dtheta)Tj
+T*
+(    )Tj
+0.498 0.498 0 rg (# Series)Tj
+T*
+(        )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (sum)Tj
+( )Tj
+(from)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (to)Tj
+( )Tj
+(infinity)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(,)Tj
+( )Tj
+/F1 9 Tf (given)Tj
+( )Tj
+(abs)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (lessthan)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+T*
+(        )Tj
+0 0 0 rg (e)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (sum)Tj
+( )Tj
+(from)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (to)Tj
+( )Tj
+(infinity)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (m)Tj
+( )Tj
+(fact)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (sum)Tj
+( )Tj
+(from)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (to)Tj
+( )Tj
+(infinity)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (raised)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(m)Tj
+( )Tj
+(plus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(m)Tj
+( )Tj
+(plus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (fact)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+T*
+(        )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (sum)Tj
+( )Tj
+(from)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (to)Tj
+( )Tj
+(infinity)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (raised)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (fact)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+T*
+(        )Tj
+/F1 9 Tf (ln)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sum)Tj
+( )Tj
+(from)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (to)Tj
+( )Tj
+(infinity)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+(,)Tj
+( )Tj
+/F1 9 Tf (given)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (abs)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (lessthan)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+T*
+(        )Tj
+/F1 9 Tf (arc)Tj
+( )Tj
+(tan)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (sum)Tj
+( )Tj
+(from)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (to)Tj
+( )Tj
+(infinity)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (raised)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(m)Tj
+( )Tj
+(plus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(m)Tj
+( )Tj
+(plus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+(,)Tj
+( )Tj
+/F1 9 Tf (given)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (abs)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (lessthan)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Vectors)Tj
+T*
+(        )Tj
+0 0 0 rg (a)Tj
+( )Tj
+(cdot)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a_1)Tj
+( )Tj
+(times)Tj
+( )Tj
+(b_1)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a_2)Tj
+( )Tj
+(times)Tj
+( )Tj
+(b_2)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a_3)Tj
+( )Tj
+(times)Tj
+( )Tj
+(b_3)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(cross)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (left)Tj
+( )Tj
+/F2 9 Tf ([)Tj
+( )Tj
+/F1 9 Tf (matrix)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (i)Tj
+0.502 0.502 0.502 rg ( # )Tj
+0 0 0 rg (j)Tj
+0.502 0.502 0.502 rg ( # )Tj
+0 0 0 rg (k)Tj
+0.502 0.502 0.502 rg ( ## )Tj
+0 0 0 rg (a_1)Tj
+0.502 0.502 0.502 rg ( # )Tj
+0 0 0 rg (a_2)Tj
+0.502 0.502 0.502 rg ( # )Tj
+0 0 0 rg (a_3)Tj
+0.502 0.502 0.502 rg ( ## )Tj
+0 0 0 rg (b_1)Tj
+0.502 0.502 0.502 rg ( # )Tj
+0 0 0 rg (b_2)Tj
+0.502 0.502 0.502 rg ( # )Tj
+0 0 0 rg (b_3)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (right)Tj
+( )Tj
+/F2 9 Tf (])Tj
+T*
+(        )Tj
+/F1 9 Tf (grad)Tj
+( )Tj
+(f)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (nabla)Tj
+( )Tj
+(f)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(f)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (vec_i)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(f)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (vec_j)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(f)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(z)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (vec_z)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(,)Tj
+/F1 9 Tf 0.502 0.502 0.502 rg ( # )Tj
+0 0 0 rg (grad)Tj
+( )Tj
+(is)Tj
+( )Tj
+(inverted)Tj
+( )Tj
+(delta)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+( )Tj
+/F1 9 Tf (nabla)Tj
+( )Tj
+/F2 9 Tf (\))Tj
+T*
+(        )Tj
+/F1 9 Tf (div)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (nabla)Tj
+( )Tj
+(cdot)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(v_1)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(v_2)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(v_3)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(z)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+T*
+(        )Tj
+/F1 9 Tf (curl)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (nabla)Tj
+( )Tj
+(cross)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (left)Tj
+( )Tj
+/F2 9 Tf ([)Tj
+( )Tj
+/F1 9 Tf (matrix)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (i)Tj
+0.502 0.502 0.502 rg ( # )Tj
+0 0 0 rg (j)Tj
+0.502 0.502 0.502 rg ( # )Tj
+0 0 0 rg (k)Tj
+0.502 0.502 0.502 rg ( ## )Tj
+/F2 9 Tf 0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(over)Tj
+( )Tj
+(partial)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+/F1 9 Tf 0.502 0.502 0.502 rg ( # )Tj
+/F2 9 Tf 0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(over)Tj
+( )Tj
+(partial)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+/F1 9 Tf 0.502 0.502 0.502 rg ( # )Tj
+/F2 9 Tf 0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (partial)Tj
+( )Tj
+(over)Tj
+( )Tj
+(partial)Tj
+( )Tj
+(z)Tj
+( )Tj
+/F2 9 Tf (})Tj
+/F1 9 Tf 0.502 0.502 0.502 rg ( ## )Tj
+0 0 0 rg (v_1)Tj
+0.502 0.502 0.502 rg ( # )Tj
+0 0 0 rg (v_2)Tj
+0.502 0.502 0.502 rg ( # )Tj
+0 0 0 rg (v_3)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (right)Tj
+( )Tj
+/F2 9 Tf (])Tj
+ET
+endstream
+endobj
+6 0 obj
+<</Length 12977>>
+stream
+BT 1 0 0 1 72 763 Tm
+/F2 9 Tf 0 0 0 rg (    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# SI units)Tj
+0 -10.8 TD
+(        )Tj
+0 0 0 rg (e)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2.718281828459045)Tj
+T*
+(        )Tj
+0 0 0 rg (sqrt)Tj
+( )Tj
+(e)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1.648721270700128)Tj
+T*
+(        )Tj
+0 0 0 rg (e)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (7.389056098930650)Tj
+T*
+(        )Tj
+0 0 0 rg (pi)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (3.141592653589793)Tj
+T*
+(        )Tj
+0 0 0 rg (pi)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (9.869604401089358)Tj
+T*
+(        )Tj
+0 0 0 rg (sqrt)Tj
+( )Tj
+(pi)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1.772453850905516)Tj
+T*
+(        )Tj
+0 0 0 rg (log_10)Tj
+( )Tj
+(pi)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0.497149872694133)Tj
+T*
+(        )Tj
+0 0 0 rg (ln)Tj
+( )Tj
+(pi)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1.144729885849400)Tj
+T*
+(        )Tj
+0 0 0 rg (log_10)Tj
+( )Tj
+(e)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0.434294481903251)Tj
+T*
+(        )Tj
+0 0 0 rg (ln)Tj
+( )Tj
+0 0.498 0.498 rg (10)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2.302585092994045)Tj
+T*
+(        )Tj
+0 0 0 rg (sqrt)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1.414213562373095)Tj
+T*
+(        )Tj
+0 0 0 rg (nroot)Tj
+( )Tj
+0 0.498 0.498 rg (3)Tj
+( )Tj
+(2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1.259921049894873)Tj
+T*
+(        )Tj
+0 0 0 rg (sqrt)Tj
+( )Tj
+0 0.498 0.498 rg (3)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1.732050807568877)Tj
+T*
+(        )Tj
+0 0 0 rg (nroot)Tj
+( )Tj
+0 0.498 0.498 rg (3)Tj
+( )Tj
+(3)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1.442249570307408)Tj
+T*
+(        )Tj
+0 0 0 rg (ln)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0.693147180559945)Tj
+T*
+(        )Tj
+0 0 0 rg (ln)Tj
+( )Tj
+0 0.498 0.498 rg (3)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1.098612288668109)Tj
+T*
+(        )Tj
+0 0 0 rg (gamma)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0.577215664901523)Tj
+T*
+(        )Tj
+0 0 0 rg (ln)Tj
+( )Tj
+(gamma)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0.549539312981644)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+T*
+(        )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (degrees)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0.017453292519943)Tj
+( )Tj
+0 0 0 rg (rad)Tj
+T*
+(        )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (rad)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (57.295779513083230)Tj
+( )Tj
+0 0 0 rg (degrees)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (57)Tj
+( )Tj
+0 0 0 rg (degrees)Tj
+( )Tj
+0 0.498 0.498 rg (17)Tj
+( )Tj
+0 0 0 rg (minutes)Tj
+( )Tj
+0 0.498 0.498 rg (44.806)Tj
+( )Tj
+0 0 0 rg (seconds)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (57)Tj
+( )Tj
+0 0 0 rg (cdot)Tj
+( )Tj
+0 0.498 0.498 rg (27'44.806)Tj
+0 0 0 rg (" \))Tj
+T*
+0.498 0.498 0 rg (# Signal Processing)Tj
+T*
+(# Calculus)Tj
+T*
+(    )Tj
+(# Reciprocal identities)Tj
+T*
+(        )Tj
+0 0 0 rg (sin)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (csc)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (csc)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (sec)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sec)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (tan)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cot)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (cot)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (tan)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Tangent & Cotangent identities)Tj
+T*
+(        )Tj
+0 0 0 rg (tan)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (cot)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Pythagorean identities)Tj
+T*
+(        )Tj
+0 0 0 rg (sin)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(cos)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+T*
+(        )Tj
+(1)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (tan)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+(  )Tj
+/F1 9 Tf (sec)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (x)Tj
+T*
+(        )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cot)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (csc)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (x)Tj
+T*
+(    )Tj
+0.498 0.498 0 rg (# function identities)Tj
+T*
+(        )Tj
+0 0 0 rg (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (pi)Tj
+( )Tj
+(over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(csc)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (pi)Tj
+( )Tj
+(over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (sec)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(sec)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (pi)Tj
+( )Tj
+(over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (csc)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (pi)Tj
+( )Tj
+(over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(tan)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (pi)Tj
+( )Tj
+(over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (cot)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(cot)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (pi)Tj
+( )Tj
+(over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (tan)Tj
+( )Tj
+(x)Tj
+T*
+(    )Tj
+0.498 0.498 0 rg (# Reduction formulas)Tj
+T*
+(        )Tj
+0 0 0 rg (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(csc)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(csc)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(sec)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (sec)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(tan)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(tan)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(cot)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(cot)Tj
+( )Tj
+(x)Tj
+T*
+(    )Tj
+0.498 0.498 0 rg (# Sum & difference formulas)Tj
+T*
+(        )Tj
+0 0 0 rg (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(plusminus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(u)Tj
+( )Tj
+(cos)Tj
+( )Tj
+(v)Tj
+( )Tj
+(plusminus)Tj
+( )Tj
+(cos)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(v)Tj
+T*
+(        )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(plusminus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(u)Tj
+( )Tj
+(cos)Tj
+( )Tj
+(v)Tj
+( )Tj
+(plusminus)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(u)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(v)Tj
+T*
+(        )Tj
+(tan)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(plusminus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (tan)Tj
+( )Tj
+(u)Tj
+( )Tj
+(plusminus)Tj
+( )Tj
+(tan)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (minusplus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (tan)Tj
+( )Tj
+(u)Tj
+( )Tj
+(tan)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Double-angle formulas)Tj
+T*
+(        )Tj
+0 0 0 rg (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(u)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (sin)Tj
+( )Tj
+(u)Tj
+( )Tj
+(cos)Tj
+( )Tj
+(u)Tj
+T*
+(        )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(u)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (u)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (sin)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (u)Tj
+T*
+(        )Tj
+(tan)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(u)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(tan)Tj
+( )Tj
+(u)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(tan)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (u)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Power reducing formula)Tj
+T*
+(        )Tj
+0 0 0 rg (sin)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (u)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(u)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+T*
+(        )Tj
+0 0 0 rg (cos)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (u)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(u)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+T*
+(        )Tj
+0 0 0 rg (tan)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (u)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(u)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+(u)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Sum-to-product formulas)Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Length 24593>>
+stream
+BT 1 0 0 1 72 763 Tm
+/F1 9 Tf 0.498 0.498 0 rg (        )Tj
+0 0 0 rg (sin)Tj
+( )Tj
+(u)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+0 -10.8 TD
+(        )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+T*
+(        )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(u)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(cos)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+T*
+(        )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(cos)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Product-to-Sum formulas)Tj
+T*
+(        )Tj
+0 0 0 rg (sin)Tj
+( )Tj
+(u)Tj
+( )Tj
+(times)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+T*
+(        )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(u)Tj
+( )Tj
+(times)Tj
+( )Tj
+(cos)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+T*
+(        )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+(u)Tj
+( )Tj
+(times)Tj
+( )Tj
+(cos)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(cos)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+T*
+(        )Tj
+/F1 9 Tf (cos)Tj
+( )Tj
+(u)Tj
+( )Tj
+(times)Tj
+( )Tj
+(sin)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+(sin)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (u)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(v)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Trigonometric functions, given theta = { 0 lessthan theta lessthan { pi / over 2 } })Tj
+T*
+(        )Tj
+0 0 0 rg (let)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (coord)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf 0 0 0.498 rg (in)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (x)Tj
+( )Tj
+(plane)Tj
+( )Tj
+(and)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (coord)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf 0 0 0.498 rg (in)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (y)Tj
+( )Tj
+(plane)Tj
+( )Tj
+(and)Tj
+T*
+(        )Tj
+(let)Tj
+( )Tj
+(r)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (sqrt)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(y)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (then)Tj
+T*
+(        )Tj
+(sin)Tj
+( )Tj
+(theta)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (y)Tj
+( )Tj
+(over)Tj
+( )Tj
+(r)Tj
+T*
+(        )Tj
+(cos)Tj
+( )Tj
+(theta)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(over)Tj
+( )Tj
+(y)Tj
+T*
+(        )Tj
+(tan)Tj
+( )Tj
+(theta)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (y)Tj
+( )Tj
+(over)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(csc)Tj
+( )Tj
+(theta)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (y)Tj
+( )Tj
+(over)Tj
+( )Tj
+(r)Tj
+T*
+(        )Tj
+(sec)Tj
+( )Tj
+(theta)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (r)Tj
+( )Tj
+(over)Tj
+( )Tj
+(x)Tj
+T*
+(        )Tj
+(tan)Tj
+( )Tj
+(theta)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(over)Tj
+( )Tj
+(y)Tj
+T*
+(    )Tj
+0.498 0.498 0 rg (# Factors & zeros of polynamials)Tj
+T*
+(        )Tj
+0 0 0 rg (let)Tj
+( )Tj
+(p)Tj
+( )Tj
+(of)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (a_n)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf (+)Tj
+( )Tj
+/F1 9 Tf (a_)Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(+)Tj
+( )Tj
+(...)Tj
+( )Tj
+(+)Tj
+( )Tj
+/F1 9 Tf (a_1)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (+)Tj
+( )Tj
+/F1 9 Tf (a_0)Tj
+/F2 9 Tf (,)Tj
+( )Tj
+0 0 0.498 rg (if)Tj
+( )Tj
+0 0 0 rg (\()Tj
+( )Tj
+/F1 9 Tf (p)Tj
+( )Tj
+(of)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (==)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (\))Tj
+( )Tj
+/F1 9 Tf (then)Tj
+( )Tj
+(a)Tj
+( )Tj
+(isa)Tj
+( )Tj
+(zero)Tj
+( )Tj
+(of)Tj
+( )Tj
+(p)Tj
+( )Tj
+(of)Tj
+( )Tj
+(x)Tj
+( )Tj
+(and)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (isa)Tj
+( )Tj
+(factor)Tj
+( )Tj
+(of)Tj
+( )Tj
+(p)Tj
+( )Tj
+(of)Tj
+( )Tj
+(x)Tj
+T*
+(    )Tj
+0.498 0.498 0 rg (# Fundamental theorem of algebra)Tj
+T*
+(        )Tj
+0 0 0 rg (let)Tj
+( )Tj
+(f)Tj
+( )Tj
+(of)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (then)Tj
+T*
+(        )Tj
+(polynomial)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(f)Tj
+( )Tj
+(of)Tj
+( )Tj
+(n)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(zeros)Tj
+( )Tj
+/F2 9 Tf (==)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(and)Tj
+( )Tj
+(zeros)Tj
+( )Tj
+(isa)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (imaginary)Tj
+( )Tj
+/F2 9 Tf (|)Tj
+( )Tj
+/F1 9 Tf (real)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(,)Tj
+( )Tj
+/F1 9 Tf (and)Tj
+T*
+(        )Tj
+(polynominal)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(real)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(degree)Tj
+( )Tj
+/F2 9 Tf (%)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (!=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (and)Tj
+( )Tj
+(polynominal)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(real)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(zeros)Tj
+( )Tj
+/F2 9 Tf (==)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+/F2 9 Tf (%)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (!=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Quadratic formula)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0.498 rg (if)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (p)Tj
+( )Tj
+(of)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(b)Tj
+( )Tj
+(x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(c)Tj
+( )Tj
+(and)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (le)Tj
+( )Tj
+(b)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+0 0.498 0.498 rg (4)Tj
+( )Tj
+0 0 0 rg (a)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (then)Tj
+( )Tj
+(p)Tj
+( )Tj
+(of)Tj
+( )Tj
+(x)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(real)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(zeros)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(b)Tj
+( )Tj
+(plusminus)Tj
+( )Tj
+(sqrt)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+0 0.498 0.498 rg (4)Tj
+( )Tj
+0 0 0 rg (a)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (a)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Special factors)Tj
+T*
+(        )Tj
+0 0 0 rg (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (3)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (3)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+T*
+(        )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (3)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (3)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+T*
+(        )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (4)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (4)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (minus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Binomial theorem)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (raised)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(n)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(n)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+(y)Tj
+( )Tj
+(plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (fact)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+(y)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf (...)Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(n)Tj
+( )Tj
+(times)Tj
+( )Tj
+(x)Tj
+( )Tj
+(times)Tj
+( )Tj
+(y)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(y)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(n)Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (raised)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(n)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+(y)Tj
+( )Tj
+(plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (fact)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+(y)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (minus)Tj
+( )Tj
+/F2 9 Tf (...)Tj
+( )Tj
+/F1 9 Tf (plusminus)Tj
+( )Tj
+(n)Tj
+( )Tj
+(times)Tj
+( )Tj
+(x)Tj
+( )Tj
+(times)Tj
+( )Tj
+(y)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (minusplus)Tj
+( )Tj
+(y)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(n)Tj
+T*
+(    )Tj
+0.498 0.498 0 rg (# Rational zero theorem)Tj
+T*
+(        )Tj
+0 0 0 rg (let)Tj
+( )Tj
+(p)Tj
+( )Tj
+(of)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (sum)Tj
+( )Tj
+(from)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (to)Tj
+( )Tj
+(infinity)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a_n)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(n)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(a_)Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(sum)Tj
+( )Tj
+(from)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (to)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a_1)Tj
+( )Tj
+(x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(a_0)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (likewise)Tj
+T*
+(        )Tj
+(let)Tj
+( )Tj
+(p)Tj
+( )Tj
+(of)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a_n)Tj
+( )Tj
+(times)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(n)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(a_)Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+(minus)Tj
+( )Tj
+0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf (...)Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+(a_1)Tj
+( )Tj
+(times)Tj
+( )Tj
+(x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(a_0)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+T*
+(        )Tj
+/F1 9 Tf (given)Tj
+( )Tj
+(a_0)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(r)Tj
+( )Tj
+(and)Tj
+( )Tj
+(r)Tj
+( )Tj
+(isa)Tj
+( )Tj
+(factor)Tj
+( )Tj
+(of)Tj
+( )Tj
+(a_0)Tj
+T*
+(        )Tj
+(given)Tj
+( )Tj
+(a_n)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(s)Tj
+( )Tj
+(and)Tj
+( )Tj
+(s)Tj
+( )Tj
+(isa)Tj
+( )Tj
+(factor)Tj
+( )Tj
+(of)Tj
+( )Tj
+(a_n)Tj
+T*
+(        )Tj
+(and)Tj
+( )Tj
+(p)Tj
+( )Tj
+(of)Tj
+( )Tj
+(x)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(coefficient)Tj
+( )Tj
+(and)Tj
+( )Tj
+(coefficient)Tj
+( )Tj
+(isa)Tj
+( )Tj
+(integer)Tj
+( )Tj
+T*
+(        )Tj
+(then)Tj
+( )Tj
+(p)Tj
+( )Tj
+(of)Tj
+( )Tj
+(x)Tj
+( )Tj
+(hasa)Tj
+( )Tj
+(zero)Tj
+( )Tj
+(that)Tj
+( )Tj
+(isa)Tj
+( )Tj
+(rational)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf 0 0 0.498 rg (with)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (r)Tj
+( )Tj
+(over)Tj
+( )Tj
+(s)Tj
+T*
+(    )Tj
+0.498 0.498 0 rg (# Factoring by grouping)Tj
+T*
+(        )Tj
+0 0 0 rg (a)Tj
+( )Tj
+(c)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (3)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(d)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(b)Tj
+( )Tj
+(c)Tj
+( )Tj
+(x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(b)Tj
+( )Tj
+(d)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(d)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(x)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (plus)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (cdot)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(d)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(    )Tj
+/F1 9 Tf 0.498 0.498 0 rg (# Arithmetic operations)Tj
+T*
+(        )Tj
+0 0 0 rg (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+(b)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(a)Tj
+( )Tj
+(times)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(over)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(over)Tj
+( )Tj
+(d)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+(d)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(times)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(over)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(over)Tj
+( )Tj
+(d)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+(d)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(b)Tj
+( )Tj
+(times)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(times)Tj
+( )Tj
+(d)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(over)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(times)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (c)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(d)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (d)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+T*
+(        )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(over)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+(b)Tj
+T*
+(        )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (plus)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+(c)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(c)Tj
+T*
+(    )Tj
+0.498 0.498 0 rg (# Exponents and radicals)Tj
+T*
+(        )Tj
+0 0 0 rg (nroot)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+0 0 0 rg (x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (sqrt)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+0 0.498 0.498 rg (0)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+( )Tj
+/F1 9 Tf (given)Tj
+( )Tj
+(a)Tj
+( )Tj
+(noteq)Tj
+( )Tj
+0 0.498 0.498 rg (0)Tj
+T*
+(        )Tj
+/F2 9 Tf 0 0 0 rg ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(over)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (b)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (nroot)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (m)Tj
+( )Tj
+(over)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (times)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(plus)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (neg)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (sqrt)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+0 0.498 0.498 rg (2)Tj
+( )Tj
+/F2 9 Tf 0 0 0 rg (})Tj
+T*
+(        )Tj
+/F1 9 Tf (nroot)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(times)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (nroot)Tj
+( )Tj
+(n)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (cdot)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (nroot)Tj
+( )Tj
+(n)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(minus)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+ET
+endstream
+endobj
+8 0 obj
+<</Length 1589>>
+stream
+BT 1 0 0 1 72 763 Tm
+/F2 9 Tf 0 0 0 rg (        )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+(x)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (raised)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (x)Tj
+( )Tj
+(times)Tj
+( )Tj
+(y)Tj
+( )Tj
+/F2 9 Tf (})Tj
+0 -10.8 TD
+(        )Tj
+/F1 9 Tf (nroot)Tj
+( )Tj
+(n)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(raised)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+0 0 0 rg (over)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+(        )Tj
+/F1 9 Tf (nroot)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (a)Tj
+( )Tj
+(over)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+(=)Tj
+( )Tj
+({)Tj
+( )Tj
+/F1 9 Tf (nroot)Tj
+( )Tj
+(n)Tj
+( )Tj
+(a)Tj
+( )Tj
+/F2 9 Tf (})Tj
+( )Tj
+/F1 9 Tf (over)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (nroot)Tj
+( )Tj
+(n)Tj
+( )Tj
+(b)Tj
+( )Tj
+/F2 9 Tf (})Tj
+T*
+/F1 9 Tf 0.498 0.498 0 rg (# Linear Algebra)Tj
+T*
+(    )Tj
+(# Basics)Tj
+T*
+(        )Tj
+0 0 0 rg (given)Tj
+( )Tj
+(Vector)Tj
+( )Tj
+(isa)Tj
+( )Tj
+(array)Tj
+( )Tj
+(from)Tj
+( )Tj
+0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (to)Tj
+( )Tj
+(m)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (Vector)Tj
+( )Tj
+/F2 9 Tf ([)Tj
+( )Tj
+/F1 9 Tf (m)Tj
+( )Tj
+/F2 9 Tf (])Tj
+( )Tj
+(})Tj
+( )Tj
+/F1 9 Tf (then)Tj
+T*
+(        )Tj
+(Matrix)Tj
+( )Tj
+(isa)Tj
+( )Tj
+(Vector)Tj
+( )Tj
+(from)Tj
+( )Tj
+0 0.498 0.498 rg (0)Tj
+( )Tj
+0 0 0 rg (to)Tj
+( )Tj
+(n)Tj
+( )Tj
+/F2 9 Tf ({)Tj
+( )Tj
+/F1 9 Tf (Matrix)Tj
+( )Tj
+/F2 9 Tf ([)Tj
+( )Tj
+/F1 9 Tf (m)Tj
+( )Tj
+/F2 9 Tf (][)Tj
+( )Tj
+/F1 9 Tf (n)Tj
+( )Tj
+/F2 9 Tf (])Tj
+( )Tj
+(})Tj
+ET
+endstream
+endobj
+9 0 obj
+<</ProcSet[/PDF/Text]
+/Font<</F1 1 0 R/F2 2 0 R/F3 3 0 R/F4 4 0 R>> >>
+endobj
+10 0 obj
+<</Type/Page/Parent 14 0 R
+/MediaBox[ 0 0 595 842]
+/Contents 5 0 R
+/Resources 9 0 R
+>>
+endobj
+11 0 obj
+<</Type/Page/Parent 14 0 R
+/MediaBox[ 0 0 595 842]
+/Contents 6 0 R
+/Resources 9 0 R
+>>
+endobj
+12 0 obj
+<</Type/Page/Parent 14 0 R
+/MediaBox[ 0 0 595 842]
+/Contents 7 0 R
+/Resources 9 0 R
+>>
+endobj
+13 0 obj
+<</Type/Page/Parent 14 0 R
+/MediaBox[ 0 0 595 842]
+/Contents 8 0 R
+/Resources 9 0 R
+>>
+endobj
+14 0 obj
+<</Type/Pages/Kids[
+10 0 R
+11 0 R
+12 0 R
+13 0 R
+]/Count 4
+>>
+endobj
+15 0 obj
+<</Type/Catalog/Pages 14 0 R >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000015 00000 n 
+0000000111 00000 n 
+0000000212 00000 n 
+0000000316 00000 n 
+0000000424 00000 n 
+0000026073 00000 n 
+0000039101 00000 n 
+0000063745 00000 n 
+0000065384 00000 n 
+0000065470 00000 n 
+0000065573 00000 n 
+0000065676 00000 n 
+0000065779 00000 n 
+0000065882 00000 n 
+0000065959 00000 n 
+trailer
+<< /Size 16 /Root 15 0 R
+>>
+startxref
+66007
+%%EOF
