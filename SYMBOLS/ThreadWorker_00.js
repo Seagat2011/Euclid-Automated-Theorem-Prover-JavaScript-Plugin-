@@ -429,6 +429,16 @@ Object.prototype.Print = function()
    return JSON.stringify(this,1,1)
 }
 
+Object.prototype.PrintAsString = function(v){
+    var result = (this.Print()).toString()
+    if(v){
+        result = escape(result)
+                .replace(/^\%22/,'')
+                .replace(/\%22$/,'')
+    }
+    return result
+}
+
 Object.prototype.Clone = function(){
     var result
     var status = {
@@ -1583,7 +1593,7 @@ function scan_token(_in_)
    var result = []
    _in_.map(function(r,i){
       r.map(function(v,j){
-         var ch00 = v.val   // logic.js //
+         var ch00 = v.val   // symbols.js //
          v.comment = ''     // syntaxer.js //
          v.literal = ''     // syntaxer.js + euclid.js //
          v.i = i
@@ -1642,7 +1652,7 @@ function scan_token(_in_)
    return result
 } // scan_token() //
 
-// addEventListener('message', my_func,'logic.js') //
+// addEventListener('message', my_func,'symbols.js') //
 
 function my_func_lexer()
 {
@@ -2040,7 +2050,7 @@ SCRIPT TYPE:
 
 */
 
-addEventListener('message', my_func_ThreadWorker_00,'logic.js')
+addEventListener('message', my_func_ThreadWorker_00,'symbols.js')
 
 function updateParseStatus()
 {

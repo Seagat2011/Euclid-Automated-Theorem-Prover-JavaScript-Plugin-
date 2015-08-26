@@ -14,13 +14,13 @@
 <td style='width:90%;'><span class=cssWindowTitle id=spnWindowTitle> Euclid reasoner </span></td>
 <td> <a id=lnkMENU href=# class=cssMENU_LABEL onclick='cssMENU.style.width = "40%";
     txtGNU.style.display = "none";
-    txtHELP.style.display = "none"'><u>M</u>ain</a> | 
+    txtHELP.style.display = "none"'>Main</a> | 
 <a id=lnkGNU href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "40%";
     txtGNU.style.display = "block";
-    txtHELP.style.display = "none"'><u>G</u>NU</a> | 
+    txtHELP.style.display = "none"'>GNU</a> | 
 <a id=lnkHELP href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "30%";
     txtGNU.style.display = "none";
-    txtHELP.style.display = "block"'><u>H</u>elp</a> 
+    txtHELP.style.display = "block"'>Help</a> 
 </td>
 </tr>
 </tbody>
@@ -905,9 +905,14 @@ necessary.  Here is a sample; alter the names:
 </div>
 
 <div id=txtHELP class=cssHELP>
-<br/>BROWSER SETTINGS (about:config)
+<br/>BROWSER SETTINGS - CHROME (chrome://flags)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;dom.workers.enabled:true
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;dom.workers.maxPerDomain:12 (min)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;dom.workers.maxPerDomain:100
+<br/>
+<br/>
+<br/>BROWSER SETTINGS - MOZILLA (about:config)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;dom.workers.enabled:true
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;dom.workers.maxPerDomain:100
 <br/>
 <br/>
 <br/>USE
@@ -926,36 +931,40 @@ necessary.  Here is a sample; alter the names:
 <br/>
 <br/>Example #3
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;An engineer is an individual whom applies the discipline
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;of math and science in his daily work.
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of math and science in his daily work.
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;What is an engineer ?
+<br/>
+<br/>..or get dictionary definitions:
+<br/>
+<br/>Example #1
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;george washington, linear algebra, ontology
 <br/>
 <br/>
 <br/>SHORT-HAND TERMINOLOGY
 <br/>
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;An ASSERTION is the thing to be proven. 
 <br/>
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;An ASSERTION + CLAUSES is a MODULE. Proofs should be
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;broken into modules.
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;An ASSERTION + supporting CLAUSES constitutes 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a MODULE. Proofs should be broken into modules.
 <br/>
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;A SESSION is one (1) discrete use of Euclid in which Euclid 
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;tries to prove or disprove a module.
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;tries to prove a module.
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;(For high probability of correctness, 
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;each session should attempt to prove one (1) module)
 <br/>
 <br/>
 <br/>SUGGESTIONS
 <br/>
-<br/>- Get dictionary definitions! 
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;If you dont use Capitalization or punctuation, Euclid 
+<br/>- If you dont use Capitalization or punctuation, Euclid 
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;assumes you are looking for a definition (george washington)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;Euclid also accepts regular-expressions and can match 
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;multiple words and retrieve multiple definitions:
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;([Gg]eorge\s*[Ww]ashington)
-<br/>- Euclid works offline!
-<br/>- homework problems
+<br/>- Euclid works offline
+<br/>- solve homework problems
 <br/>- solve riddles
 <br/>- math proofs (Fermat's Last Theorem)
-<br/>- reasoning
+<br/>- formal reasoning
 <br/>- (automated) theorem proving
 <br/>- courtroom prep (Best way to present case before a judge)
 <br/>- parse legal documents
@@ -965,12 +974,14 @@ necessary.  Here is a sample; alter the names:
 <br/>&nbsp;&nbsp;taste,color,texture)
 <br/>- Verify output of Regular-Expressions 
 <br/>- Demonstrate $1M Clay Math prize (using Euclid)
-<br/>- Download the full version!
+<br/>- Download the free full version
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;SYSTEM REQ
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50 GB (AVAILABLE SPACE)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16 GB RAM
 <br/>
-<br/>
+<br/>- SUPPORT
+<br/>    <img alt="Yahoo!: github_genesis_project" src=donate_paypal_sm.png />
+<br/><sup>Yahoo!-Mail: github_genesis_project</sup>
 </div>
 </div>
 </div>

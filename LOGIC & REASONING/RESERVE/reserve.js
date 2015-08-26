@@ -1,3 +1,8 @@
+//if(!s[0][s[0].length-1].match(/[\.\?\!]$/)){
+        if(s.length==1){
+            sentence =  getDEFS(s[0])
+        }
+
 // Works yet SLOW (performance)
 function my_func(e){ // part_of_speech lookup
     var result = []

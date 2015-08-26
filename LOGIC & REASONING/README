@@ -4,7 +4,7 @@ BUGFIXES
         SOLU: verify target-file in Worker.addEventListener
         SOLU: verify Worker.postMessage parameter-list
         
-BROWSER SETTINGS (about:config)
+BROWSER SETTINGS - MOZILLA (about:config)
     dom.workers.enabled:true
     dom.workers.maxPerDomain:1000
 
@@ -16,7 +16,7 @@ LOGIC
     if A = B n C then
         !A = -(B n C)
         
-Clausal Inference-Rule Calculus  
+Clausal Inference-Rule Calculus 
       
     GENERATIVE INFERENCE RULES (can add to clauses)
     
@@ -183,7 +183,7 @@ EUCLID SOLVES
     [noun.fruit|apple] > [apple|apple] // [def|pretty text]
  
 NOTES
-    Summarizatioin is done at the verbs (eg I [ate] > I [went] to the kitchen and [made] a sandwhich)
+    Summarization of documents is done at the verb level: (eg I [ate] >> I went to the kitchen and [made] a sandwhich)
     Euclid will learn how to locate an answer within sentences mapped to multiple Natural Language Grammars
     AC Tautology Deletion - Assoc / Commutative Tautology Deletion
     Cover Art: B/W image of Bertrand Russell
@@ -196,4 +196,4 @@ FEATURES
     An HTML5 canvas element will be incorporated for Euclid to parse mathematical equations as well as formulaic markup ( using LibreOffice Math syntax)
     
 THEORY
-    Perhaps Euclid can use ontology mapping onto RegularExpressions to verify & solve proofs (automoated prover)
+    Perhaps Euclid can use ontology mapping onto RegularExpressions to verify & solve proofs (automated prover)

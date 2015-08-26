@@ -1,3 +1,71 @@
+            this.buildTensorReduction = function(s_k_object, k, k_2, j, j_2, i, tmpParser) {
+                var result
+                try {
+                    var o = s_k_object.Clone()
+                    var k_rep = (k_2 == 0) ? 1 : 0
+                    var p_lhs = tmpParser[j][k_2][i]
+                    var p_rhs = tmpParser[j][k_rep][i]
+                    Object.keys(s_k_object).forEach(function(idx){
+                    //for (var idx in s_k_object) {
+                        var c = typeof (p_lhs[idx]) == 'number'
+                        if (c) {
+                            var u = o[idx]
+                            delete o[idx]
+                            Object.keys(p_rhs).forEach(function(w){
+                            //for (var w in p_rhs) {
+                                //if (p_rhs.hasOwnProperty(w)) {
+                                    o[w] = u
+                                //}
+                                return w
+                            })
+                        }
+                        var c = typeof (o[idx]) == 'object'
+                        if (c) {
+                            Object.keys(o[idx]).forEach(function(idx_2){
+                            //for (var idx_2 in o[idx]) {
+                                //if (o[idx].hasOwnProperty(idx_2)) {
+                                    var u = o[idx][idx_2]
+                                    delete o[idx][idx_2]
+                                    Object.keys(p_rhs).forEach(function(w){
+                                    //for (var w in p_rhs) {
+                                        if (p_rhs.hasOwnProperty(w)) {
+                                            o[idx][w] = u
+                                        }
+                                        return w
+                                    })
+                                //}
+                                return idx_2
+                            })
+                        }
+                        return idx
+                    })
+                
+                    result = o
+                } 
+                catch (e) 
+                {
+                    result = {}
+                //console.log(e)
+                }
+                return result
+            }
+        
+//
+
+this.compare = function(obj,k,k_2,j,j_2,i,tmpParser,that){
+        var orig_len = tmpParser
+        var o = that.buildTensorReduction(obj,k,k_2,j,j_2,i,tmpParser)
+        if(o){
+            var b = o.PrintAsString(true)
+            var c = tmpParser[j][k_2].PrintAsString(true)
+            if(!c.match(b)){
+                tmpParser[j][k_2].push(o)
+            }
+        }
+        return tmpParser
+    }
+
+//
 
     this.buildDiGraphTensor = function( tmpParser ){
         var m_buildTensorReduction = this.buildTensorReduction
