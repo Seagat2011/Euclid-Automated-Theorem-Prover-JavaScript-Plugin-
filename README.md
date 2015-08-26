@@ -4,7 +4,7 @@ Automated Theorem Prover written in JavaScript, CSS3 &amp; HTML5 <br/>
 <br/>
 Euclid is separated into two (2) tools :<br/>
 <br/>
-( 1 ) An ESL Natural Language Processor / Formal Logic & Reasoning Engine<br/>
+( 1 ) An ESL Natural Language Processor, Formal Logic & Reasoning Engine<br/>
 ( 2 ) A Symbol editor and axiom-supported prover ( extensible )<br/>
 <br/>
 <br/>
