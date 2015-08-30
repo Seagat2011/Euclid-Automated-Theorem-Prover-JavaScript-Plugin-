@@ -6,38 +6,6 @@
 <link rel='stylesheet' media='all' href='symbols.css'>
 <script src=MD5.js></script>
 <script src=symbols.js></script>
-</head>
-<body onload='loader()'>
-
-<div class=cssWindow>
-<table style='width:100%;'>
-<tbody>
-<tr>
-<td style='width:90%;'><span class=cssWindowTitle id=spnWindowTitle> Euclid formula </span></td>
-<td> 
-<a id=lnkMENU href=# class=cssMENU_LABEL onclick='cssMENU.style.width = "40%";
-    txtGNU.style.display = "none";
-    txtINCLUDES.style.display = "none";
-    txtHELP.style.display = "none"'>Main</a> | 
-<a id=lnkGNU href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "40%";
-    txtGNU.style.display = "block";
-    txtINCLUDES.style.display = "none";
-    txtHELP.style.display = "none"'>GNU</a> | 
-<a id=lnkGNU href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "66%";
-    txtGNU.style.display = "none";
-    txtINCLUDES.style.display = "block";
-    txtHELP.style.display = "none"'>Include</a> | 
-<a id=lnkHELP href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "30%";
-    txtGNU.style.display = "none";
-    txtINCLUDES.style.display = "none";
-    txtHELP.style.display = "block"'>Help</a> 
-</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<br/><br/>
-
 <div id=cssMENU>
 <a href=# class=cssCANCEL>&times;</a>
 <div class=cssFRAME>
@@ -1549,6 +1517,39 @@ necessary.  Here is a sample; alter the names:
 </div>
 </div>
 <div id=cssCOVER></div>
+</head>
+<body onload='loader()'>
+
+<div class=cssWindow>
+<table style='width:100%;'>
+<tbody>
+<tr>
+<td style='width:90%;'><span class=cssWindowTitle id=spnWindowTitle> Euclid formula </span></td>
+<td> 
+<a id=lnkMENU href=# class=cssMENU_LABEL onclick='cssMENU.style.width = "40%";
+    txtGNU.style.display = "none";
+    txtINCLUDES.style.display = "none";
+    txtHELP.style.display = "none";
+    '>Main</a> | 
+<a id=lnkGNU href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "40%";
+    txtGNU.style.display = "block";
+    txtINCLUDES.style.display = "none";
+    txtHELP.style.display = "none"'>GNU</a> | 
+<a id=lnkGNU href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "66%";
+    txtGNU.style.display = "none";
+    txtINCLUDES.style.display = "block";
+    txtHELP.style.display = "none"'>Include</a> | 
+<a id=lnkHELP href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "30%";
+    txtGNU.style.display = "none";
+    txtINCLUDES.style.display = "none";
+    txtHELP.style.display = "block"'>Help</a> 
+<a class=cssMENU_LABEL href=javascript:window.print()>Print</a>
+</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<br/><br/>
 
 <div id=formulaTBL class=cssFormulaTable>
 <table class=cssTABLE>
@@ -1563,6 +1564,7 @@ necessary.  Here is a sample; alter the names:
 
 </div>
 <br/>
+<div class=printView>
 <textarea id=srcCode class=cssCode placeholder='Enter keyword then press translate button below to translate'></textarea><p/>
 <input id=btnTranslate type=button value='  Prove Theorem  ' onclick='translatorTool()'/>
 <input id=btnPreview type=button value='Preview' onclick='preview()'/>
@@ -1570,5 +1572,6 @@ necessary.  Here is a sample; alter the names:
 <input id=btnClear type=button value='clear source window' onclick='clear_window()'/>
 <select id=selBox style='width:18em;'></select><p/>
 <textarea id=srcTranslated class=cssTranslated placeholder='Author - Abdul H. Shabazz, Copyright (c) 2015 - All Rights Reserved'></textarea>
+</div>
 </body>
 </html>

@@ -566,7 +566,7 @@ var intf = {
         })
         srcTranslated.value = '# Lexer: Note - \"\" == \'\\n\'\n' + NFA_token.Print() + '\n\n# Syntaxer\n' + result.Print()
     },
-    11: function() { // xperimental: SuffixTree generator
+    11:function(){ // mapToRegExp
         function Replace_Route(s, t, o) {
         }
         function Route_Check() {
@@ -599,7 +599,145 @@ var intf = {
                 return obj
             }
         }
+        Route_Check.prototype = new Object()
+        function Parser_init(buffer,includes) {
+            this['7F2DB423A49B305459147332FB01CF87'] = buffer
+            this.includes = includes
+            this.stable_phrase_delimiter = ':'
+            this.wildcard_phrase_delimiter = ':\.\*'
+            this.axioms = {}
+            // global axioms are atomic and thus are not reducible
+            this.find_all_global_axioms = function(){
+            
+            }
+        }
+        Parser_init.prototype = new Array()
+        Parser = new Parser_init()
+        function Route_Map() {
+            this['plus'] = function(l, r, o) {
+                return this['+'](l, r, o)
+            }
+            this['minus'] = function(l, r, o) {
+                return this['-'](l, r, o)
+            }
+            this['+'] = function(l, r, o) {
+                var obj = o || {}
+                if (!obj[l]) {
+                    obj[l] = 1
+                }
+                if (!obj[r]) {
+                    obj[r] = 1
+                }
+                return obj
+            }
+            this['-'] = function(l, r, o) {
+                var obj = o || {}
+                if (!obj[l]) {
+                    obj[l] = {}
+                }
+                obj[l][r] = 1
+                return obj
+            }
+        }
         Route_Map.prototype = new Object()
+        // 'a:b:c'.match('a:c'.replace(/:/g,':\.\*')) => TRUE
+        function find_keys(obj){
+        
+        }
+        function make_keys(obj){
+            var s = []
+            Object.keys(obj).forEach(function(i){
+                if(typeof(obj[i])=='number'){
+                    s.push(Math.md5(i))
+                } else {
+                    s.push(Math.md5(i))
+                    var w = []
+                    Object.keys(obj[i]).forEach(function(j){
+                        w.push(Math.md5(j))
+                        return j
+                    })
+                    s.push(w.sort().join(':'))
+                }
+                return i
+            })
+            return s.join(':')
+        }
+        var route_map = new Route_Map()
+        var dictionary = {}
+        var do_not_merge = {}
+        var buf = srcCode.value.split(/\n+/)
+        var result = buf.shift()
+        var buffer = buf.map(function(v) {
+            var tmp = v.split(/\s+/)
+            var obj = tmp.map(function(s) {
+                return {literal: s}
+            })
+            return obj
+        })
+        var buffer2 = buffer.map(function(w){
+            var s = ''
+            var b = []
+            var obj = {}
+            w.map(function(v,i,me){
+                if(v.literal == '='){
+                    b.push(make_keys(obj))
+                    obj = {}
+                } else
+                if(i==0 && me[i+1].literal=='='){
+                    obj[v.literal] = 1
+                } else
+                if(i==me.length-1 && me[i-1].literal=='='){
+                    obj[v.literal] = 1
+                    b.push(make_keys(obj))
+                    obj = {}
+                } else
+                if(route_map[v.literal] && typeof(i-1)=='number') {
+                    var last = me[i-1].literal
+                    var next = me[i+1].literal
+                    obj[v.literal] = route_map[v.literal] (last,next,obj[v.literal])
+                }
+                return v
+            })
+            b.local_phrase = '('+b.join('|')+')'
+            b.global_phrase = ['('+b.join('|')+')']
+            return b
+        })
+        srcTranslated.value = JSON.stringify(buffer2,2,1)
+    },
+    13: function() { // xperimental: SuffixTree generator
+        function Replace_Route(s, t, o) {
+        }
+        function Route_Check() {
+            this['plus'] = function(l, r, o) {
+                return this['+'](l, r, o)
+            }
+            this['minus'] = function(l, r, o) {
+                return this['-'](l, r, o)
+            }
+            this['+'] = function(l, r, o) {
+                var isValid = true
+                var obj = o
+                if (!obj[l]) {
+                    isValid = false
+                }
+                if (!obj[r]) {
+                    isValid = false
+                }
+                return isValid
+            }
+            this['-'] = function(l, r, o) {
+                var isValid = true
+                var obj = o
+                if (!obj[l]) {
+                    isValid = false
+                }
+                if (!obj[l][r]) {
+                    isValid = false
+                }
+                return obj
+            }
+        }
+        Route_Check.prototype = new Object()
         function Route_Map() {
             this['plus'] = function(l, r, o) {
                 return this['+'](l, r, o)
@@ -644,37 +782,69 @@ var intf = {
             includes[0].shift(), includes[0].shift(), includes[0].pop()
             this.buffer = includes[0], includes.shift()
             this.axioms = includes
-            this.buildTensorReduction = function(s_k_object, k, k_2, j, j_2, i, tmpParser) {
+            this.buildTensorElement = function(obj, tp) {
                 var result
+                var status = {
+                    'number':{
+                        'number':function(w,w2,i,j){
+                            console.log('[number number]')
+                            return w
+                        },
+                        'string':function(w,w2,i,j){
+                            console.log('[number string]')
+                            return w
+                        },
+                        'object':function(w,w2,i,j){
+                            console.log('[number object/array]')
+                            return w
+                        },
+                    },
+                    'object':{
+                        'number':function(w,w2,i,j){
+                            console.log('[object number]')
+                            return w
+                        },
+                        'string':function(w,w2,i,j){
+                            console.log('[object string]')
+                            return w
+                        },
+                        'object':function(w,w2,i,j){
+                            console.log('[object/array object/array]')
+                            return w
+                        },
+                    },
+                    'string':{
+                        'number':function(w,w2,i,j){
+                            console.log('[string number]')
+                            return w
+                        },
+                        'string':function(w,w2,i,j){
+                            console.log('[string string]')
+                            return w
+                        },
+                        'object':function(w,w2,i,j){
+                            console.log('[string object/array]')
+                            return w
+                        },
+                    },
+                    'default':function(){
+                        return {}
+                    },
+                }
                 try {
-                    var o = s_k_object.Clone()
-                    var k_rep = (k_2 == 0) ? 1 : 0
-                    var lhs = tmpParser[j][k_2][i]
-                    var rhs = tmpParser[j][k_rep][i]
-                    Object.keys(s_k_object).forEach(function(idx){/*
-                        var c = typeof (lhs[idx]) == 'number'
-                        if (c) {
-                            var u = o[idx]
-                            delete o[idx]
-                            Object.keys(rhs).forEach(function(r){
-                                o[r] = u
-                                return r
-                            })
-                        }
-                        var c = typeof (o[idx]) == 'object'
-                        if (c) {
-                            Object.keys(o[idx]).forEach(function(idx_2){
-                                var u = o[idx][idx_2]
-                                delete o[idx][idx_2]
-                                Object.keys(rhs).forEach(function(r){
-                                    o[idx][r] = u
-                                    return r
-                                })
-                                return idx_2
-                            })
-                        }*/
+                    var s = obj.Clone()
+                    var t = tp[0]
+                    console.log('s')
+                    Object.keys(s).forEach(function(idx){
+                        console.log(idx,s[idx],typeof(s[idx]))
                         return idx
                     })
+                    console.log('t')
+                    Object.keys(t).forEach(function(idx2){
+                        console.log(idx2,t[idx2],typeof(t[idx2]))
+                        return idx2
+                    })
+                    console.log('\n\n')
                     result = o
                 } 
                 catch (e) 
@@ -683,33 +853,19 @@ var intf = {
                 }
                 return result
             }
-            this.root_compare = function(obj, k, k_2, j, j_2, i, tmpParser, that) {
-                var o = that.buildTensorReduction(obj, k, k_2, j, j_2, i, tmpParser)
-                var bDoInsert = true
-                tmpParser[j][k_2].map(function(p){
-                    if(bDoInsert && (o==p)){
-                        bDoInsert = false
-                    }
-                    return p
-                })
-                if(bDoInsert && o){
-                    tmpParser[j][k_2].push(o)
+            this.compare = function(obj, tp, that) {
+                var o = that.buildTensorElement(obj, tp)
+                if(o){
+                    tp.push(o)
                 }
-                return tmpParser
-            }
-            this.compare_LHS = function(obj, k, k_2, j, j_2, tmpParser, that) {
-                return that.root_compare(obj[0], k, k_2, j, j_2, 0, tmpParser, that)
-            }
-            this.compare_RHS = function(obj, k, k_2, j, j_2, tmpParser, that) {
-                return that.root_compare(obj[0], k, k_2, j, j_2, 0, tmpParser, that)
+                return tp
             }
             this.compareRows = function(s_j, s_j_2, j, j_2, tmpParser, that) {
-                var m_compare_LHS = that.compare_LHS
-                var m_compare_RHS = that.compare_RHS
+                var m_compare = that.compare
                 s_j.map(function(s_k, k) {
                     s_j_2.map(function(s_k_2, k_2) {
-                        tmpParser = m_compare_LHS(s_k, k, k_2, j, j_2, tmpParser, that)
-                        tmpParser = m_compare_RHS(s_k_2, k, k_2, j, j_2, tmpParser, that)
+                        tmpParser[j][k]     = m_compare(s_k_2[0], tmpParser[j][k], that)
+                        tmpParser[j_2][k_2] = m_compare(s_k[0], tmpParser[j_2][k_2], that)
                         return s_k_2
                     })
                     return s_k
@@ -719,9 +875,14 @@ var intf = {
             this.buildDiGraphTensor = function(tmpParser) {
                 var that = this
                 var m_compareRows = this.compareRows
+                var archive = {}
                 tmpParser.map(function(s_j, j) {
                     tmpParser.map(function(s_j_2, j_2) {
-                        if (j != j_2) { // skip self //
+                        if(!archive[j_2]){
+                            archive[j_2] = {}
+                        }
+                        if ((j != j_2) && (!archive[j][j_2])){ // skip-self //
+                            archive[j_2][j] = 1
                             tmpParser = m_compareRows(s_j, s_j_2, j, j_2, tmpParser, that)
                         }
                         return s_j_2
@@ -818,7 +979,7 @@ var intf = {
         prove.buildDiGraph()
         srcTranslated.value = Parser.Print()
     },
-    12: function() { // Syntaxer NFA generator
+    13: function() { // Syntaxer NFA generator
         function g_TPTtoken() 
         {
             // NoToken //
@@ -1295,7 +1456,7 @@ for(var i in en){
         }
         srcTranslated.value = invEN.Print()
     },
-    12: function() { // isa/hasa debugger //
+    13: function() { // isa/hasa debugger //
         var Entity = new Object()
         function isa() {
             var y = arguments[1]

@@ -59,26 +59,9 @@
     height:35%;
     overflow:auto;
     /*
-    white-space:pre-line;
     overflow-x:scroll;
     overflow-y:scroll;
     */
-}
-@media print {
-    .cssFormulaTable {
-        display:inline;
-    }
-    .printView {
-        display:none;
-    }
-}
-@media screen {
-    .cssFormulaTable {
-        display:block;
-    }
-    .printView {
-        display:block;
-    }
 }
 .cssGNU {
     font-family:liberation serif;

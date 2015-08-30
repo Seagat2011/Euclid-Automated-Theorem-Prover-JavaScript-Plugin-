@@ -5,29 +5,6 @@
 <link rel='stylesheet' media='all' href='mentor.css'>
 <script src=MD5.js></script>
 <script src=mentor.js></script>
-</head>
-<body onload='loader()'>
-<div class=cssWindow>
-<table style='width:100%;'>
-<tbody>
-<tr>
-<td style='width:90%;'><span class=cssWindowTitle id=spnWindowTitle> Euclid reasoner </span></td>
-<td> <a id=lnkMENU href=# class=cssMENU_LABEL onclick='cssMENU.style.width = "40%";
-    txtGNU.style.display = "none";
-    txtHELP.style.display = "none"'>Main</a> | 
-<a id=lnkGNU href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "40%";
-    txtGNU.style.display = "block";
-    txtHELP.style.display = "none"'>GNU</a> | 
-<a id=lnkHELP href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "30%";
-    txtGNU.style.display = "none";
-    txtHELP.style.display = "block"'>Help</a> 
-</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<br/><br/>
-
 <div id=cssMENU>
 <a href=# class=cssCANCEL>&times;</a>
 <div class=cssFRAME>
@@ -985,6 +962,30 @@ necessary.  Here is a sample; alter the names:
 </div>
 </div>
 <div id=cssCOVER></div>
+</head>
+<body onload='loader()'>
+<div class=cssWindow>
+<table style='width:100%;'>
+<tbody>
+<tr>
+<td style='width:90%;'><span class=cssWindowTitle id=spnWindowTitle> Euclid reasoner </span></td>
+<td> <a id=lnkMENU href=# class=cssMENU_LABEL onclick='cssMENU.style.width = "40%";
+    txtGNU.style.display = "none";
+    txtHELP.style.display = "none"'>Main</a> | 
+<a id=lnkGNU href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "40%";
+    txtGNU.style.display = "block";
+    txtHELP.style.display = "none"'>GNU</a> | 
+<a id=lnkHELP href=#cssMENU class=cssMENU_LABEL onclick='cssMENU.style.width = "30%";
+    txtGNU.style.display = "none";
+    txtHELP.style.display = "block"'>Help</a> 
+</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<br/><br/>
+
+
 <textarea class=cssCode id=srcCode placeholder='Enter clause then press translate button below to analyze'></textarea><p/>
 <input id=btnTranslate type=button value='click to translate' onclick='translatorTool()'/>
 <input id=btnTranslate type=button value='click to generate MD5' onclick='MD5()'/>

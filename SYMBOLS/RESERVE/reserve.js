@@ -1,4 +1,363 @@
-            this.buildTensorReduction = function(s_k_object, k, k_2, j, j_2, i, tmpParser) {
+//
+var buffer2 = buffer.map(function(w){
+            var s = ''
+            var b = []
+            var obj = {}
+            w.map(function(v,i,me){
+                if(v.literal == '='){
+                    b.push(make_keys(obj))
+                    //b.push(Math.md5(JSON.stringify(obj)))
+                    obj = {}
+                    //b.push(s)
+                    //s = ''
+                } else
+                if(i==0 && me[i+1].literal=='='){
+                    obj[v.literal] = 1
+                } else
+                if(i==me.length-1 && me[i-1].literal=='='){
+                    obj[v.literal] = 1
+                    b.push(make_keys(obj))
+                    obj = {}
+                    //b.push(Math.md5(JSON.stringify(obj)))
+                }
+                /*
+                if(i == me.length-1){
+                    //b.push(s+Math.md5(v.literal))
+                    obj = {}
+                    //s = ''
+                } else
+                */
+                if(route_map[v.literal] && typeof(i-1)=='number') {
+                    var last = me[i-1].literal
+                    var next = me[i+1].literal
+                    obj[v.literal] = route_map[v.literal] (last,next,obj[v.literal])
+                   // s += Math.md5(v.literal)
+                }
+                return v
+            })
+//
+        /*
+        var _2MD5 = buf.Clone()
+        var buffer2 = _2MD5.map(function(v) {
+            var tmp = v.split(/=/)
+            var obj = tmp.map(function(s) {
+                var w = s.split(/\s+/)
+                w = w.map(function(q){
+                    var result = ''
+                    if(q){
+                        result = Math.md5(q)
+                    }
+                    return result
+                })
+                return w.join('')
+            })
+            obj.phrase = '('+obj.join('|')+')'
+            return obj
+        })
+        */
+//
+s
+x Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
++ Object {x: 1, y: 1, z: 1, Clone: function, Print: function...} object
+y Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+z 1 number
+t
+x 1 number
+
+
+s
+x 1 number
+t
+x Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
++ Object {x: 1, y: 1, z: 1, Clone: function, Print: function...} object
+y Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+z 1 number
+
+
+s
+a 1 number
+t
+x 1 number
+
+
+s
+x 1 number
+t
+a 1 number
+
+
+s
+x Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
++ Object {x: 1, y: 1, z: 1, Clone: function, Print: function...} object
+y Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+z 1 number
+t
+a 1 number
+
+
+s
+a 1 number
+t
+x Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
++ Object {x: 1, y: 1, z: 1, Clone: function, Print: function...} object
+y Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+z 1 number
+
+
+s
+a 1 number
+t
+a 1 number
+
+
+s
+a 1 number
+t
+a 1 number
+
+s
+x Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
++ Object {x: 1, y: 1, z: 1, b: 1, c: 1...} object
+y Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+z Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+b Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+c 1 number
+t
+x 1 number
+
+
+s
+x 1 number
+t
+x Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
++ Object {x: 1, y: 1, z: 1, b: 1, c: 1...} object
+y Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+z Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+b Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+c 1 number
+
+
+s
+d 1 number
+t
+x 1 number
+
+
+s
+x 1 number
+t
+d 1 number
+
+
+s
+x Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
++ Object {x: 1, y: 1, z: 1, b: 1, c: 1...} object
+y Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+z Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+b Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+c 1 number
+t
+a 1 number
+
+
+s
+a 1 number
+t
+x Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
++ Object {x: 1, y: 1, z: 1, b: 1, c: 1...} object
+y Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+z Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+b Object {+: 1, Clone: function, Print: function, PrintAsString: function, dup: function} object
+c 1 number
+
+
+s
+d 1 number
+t
+a 1 number
+
+
+s
+a 1 number
+t
+d 1 number
+
+
+
+//
+            this.buildTensorElement = function(obj, tp) {
+                var result
+                var status = {
+                    'number':{
+                        'number':function(w,w2,i,j){
+                            console.log('[number number]')
+                            return w
+                        },
+                        'object':function(w,w2,i,j){
+                            console.log('[number object]')
+                            return w
+                        },
+                    },
+                    'object':{
+                        'number':function(w,w2,i,j){
+                            console.log('[object number]')
+                            return w
+                        },
+                        'object':function(w,w2,i,j){
+                            console.log('[object object]')
+                            return w
+                        },
+                    },
+                    'default':function(){
+                        return {}
+                    },
+                }
+                try {
+                    var s = obj.Clone()
+                    var t = tp[0]
+                    console.log('s')
+                    Object.keys(s).forEach(function(idx){
+                        console.log(idx,s[idx])
+                    /*
+                        var a = typeof (idx)
+                        var b = typeof (o2)
+                        if(b == 'object'){
+                            Object.keys(o2).forEach(function(idx2){
+                                var c  = typeof (o2[idx2])
+                                if(status[a][c]){
+                                    o = status[a][c](idx,idx2,o[idx],o2[idx2])
+                                } else {
+                                    o = status['default']()
+                                }
+                                return idx2
+                            })
+                        } else 
+                        if(b == 'number'){
+                            if(status[a]['number']){
+                                o = status[a]['number'](null,null,o,o2)
+                            } else {
+                                o = status['default']()
+                            }
+                        }
+                    */
+                        return idx
+                    })
+                    console.log('t')
+                    Object.keys(t).forEach(function(idx2){
+                        console.log(idx2,t[idx2])
+                        return idx2
+                    })
+                    console.log('\n\n')
+                    result = o
+                } 
+                catch (e) 
+                {
+                    result = {}
+                }
+                return result
+            }
+//
+            this.buildTensorElement = function(obj, tp) {
+                var result
+                try {
+                    var o = obj.Clone()
+                    /*
+                    var k_rhs = (k_lhs == 0) ? 1 : 0
+                    var lhs = tp[k_lhs][0]
+                    var rhs = tp[k_rhs][0]
+                    Object.keys(s_k_object).forEach(function(idx){
+                        var b = typeof (lhs[idx]) == 'number'
+                        var c = typeof (lhs[idx]) == 'object'
+                        if(b){
+                            var u = o[idx]
+                            delete o[idx]
+                            Object.keys(rhs).forEach(function(r){
+                                o[r] = u
+                                return r
+                            })
+                        } else 
+                        if(c){
+                            Object.keys(o[idx]).forEach(function(idx_2){
+                                var u = o[idx][idx_2]
+                                delete o[idx][idx_2]
+                                Object.keys(rhs).forEach(function(r){
+                                    o[idx][r] = u
+                                    return r
+                                })
+                                return idx_2
+                            })
+                        }
+                        return idx
+                    })
+                    */
+                    result = o
+                } 
+                catch (e) 
+                {
+                    result = {}
+                }
+                return result
+            }
+//
+            this.compareRows = function(s_j, s_j_2, j, j_2, tmpParser, that) {
+                var m_compare = that.compare
+                tmpParser[j][0]     = m_compare(tmpParser[j_2][0][0], tmpParser[j][0],    that)
+                tmpParser[j][1]     = m_compare(tmpParser[j_2][1][0], tmpParser[j][1],    that)
+                tmpParser[j_2][0]   = m_compare(tmpParser[j][0][0],   tmpParser[j_2][0],  that)
+                tmpParser[j_2][1]   = m_compare(tmpParser[j][1][0],   tmpParser[j_2][1],  that)
+                /*
+                s_j.map(function(s_k, k) {
+                    s_j_2.map(function(s_k_2, k_2) {
+                        tmpParser[j][k_2] = m_compare(s_k_2[0], tmpParser[j][k_2], that)
+                        tmpParser[j_2][k] = m_compare(s_k[0], tmpParser[j_2][k], that)
+                        return s_k_2
+                    })
+                    return s_k
+                })
+                */
+                return tmpParser
+            }
+//
+
+            this.compareRows = function(s_j, s_j_2, j, j_2, tmpParser, that) {
+                var m_compare = that.compare
+                s_j.map(function(s_k, k_rhs) {
+                    s_j_2.map(function(s_k_2, k_2_rhs) {
+                        /*
+                        var k_lhs   = (k_rhs==0) ? 1:0
+                        var k_2_lhs = (k_2_rhs==0) ? 1:0
+                        tmpParser[j][k_rhs]     = m_compare(tmpParser[j_2][k_lhs][0],      tmpParser[j][k_lhs],     that)
+                        tmpParser[j][k_2_rhs]   = m_compare(tmpParser[j][k_lhs][0],        tmpParser[j][k_2_lhs],   that)
+                        tmpParser[j_2][k_rhs]   = m_compare(tmpParser[j_2][k_2_lhs][0],    tmpParser[j_2][k_lhs],   that)
+                        tmpParser[j_2][k_2_rhs] = m_compare(tmpParser[j_2][k_lhs][0],      tmpParser[j_2][k_2_lhs], that)
+                        */
+                        return s_k_2
+                    })
+                    return s_k
+                })
+                return tmpParser
+            }
+//
+            this.root_compare = function(obj, k, k_2, j, j_2, i, tmpParser, that) {
+                var o = that.buildTensorReduction(obj, k, k_2, j, j_2, i, tmpParser)
+                /*
+                var bDoInsert = true
+                tmpParser[j][k_2].map(function(p){
+                    if(bDoInsert && (o==p)){
+                        bDoInsert = false
+                    }
+                    return p
+                })*/
+                //if(bDoInsert && o){
+                if(o){
+                    tmpParser[j][k_2].push(o)
+                }
+                return tmpParser
+            }
+
+//
+
+this.buildTensorReduction = function(s_k_object, k, k_2, j, j_2, i, tmpParser) {
                 var result
                 try {
                     var o = s_k_object.Clone()

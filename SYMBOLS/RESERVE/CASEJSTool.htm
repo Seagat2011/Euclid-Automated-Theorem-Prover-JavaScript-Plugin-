@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml" hasBrowserHandlers="true">
+<head>
+<title>CASE JSTool 1.0.0.0</title>
+<meta http-equiv="Content-Type" content="application/html; charset=utf-8"/>
+<link rel='stylesheet' media='all' href='CASEJSTool.css'>
+<script src=MD5.js></script>
+<script src=CASEJSTool.js></script>
+</head>
+<body onload='loader()'>
+
+<div id=__main><a class=cssMENU_LABEL href=# onclick=intf[0](0)>main ></a></div><br>
+<input id=current_level style='display:none' value=0 />
+
+<textarea class=cssCode id=srcCode placeholder='Enter keyword then press translate button below to translate'></textarea><p>
+<input id=btnTranslate type=button value='update' onclick='translatorTool()'/>
+<input id=btnTranslate type=button value='click to generate MD5' onclick='MD5()'/>
+<input id=btnTranslate type=button value='clear source window' onclick='clear_window()'/>
+<select id=selBox>
+<option default>  procedural designer  </option>
+<option>  parameter-list  </option>
+<option>  code body  </option>
+<option>  compare  </option>
+<option>  assert  </option>
+<option>  iterate  </option>
+</select>
+<br>
+<br> <input id=btnTranslate type=button value='generate code' onclick='generate_code()'/>
+<p/>
+<textarea class=cssTranslated id=srcTranslated placeholder='Author - Abdul H. Shabazz, Copyright (c) 2015 - All Rights Reserved'></textarea>
+</body>
+</html>
