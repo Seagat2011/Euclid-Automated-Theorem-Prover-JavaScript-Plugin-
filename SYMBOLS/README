@@ -75,24 +75,20 @@ HOW EUCLID WORKS (HOW EUCLID BUILDS INTERNAL ASSOCIATIONS..
         Example
 
             Prove { x times b = c }
-            x = a
-            a times b = c
+            x = a           (00)
+            a times b = c   (01)
             
                 INTERNAL REPRESENTATION
                 
-                a times b = c
-                            
-                x times b = c
+                a \                 (00)
+                x /
+                
+                a times b = c       (01)
                 .
                 .
-                a times b = \
-                             c
-                x times b = /
-                .
-                .
-                a times \
-                         b = c
-                x times /
+                a \
+                   times b = c      (00/01)
+                x /
                 
                 Euclid uses axioms that you provide to build an internal representation, or network,
                 (a connected DiGraph) and iff Euclid can then traverse from x to c, 
