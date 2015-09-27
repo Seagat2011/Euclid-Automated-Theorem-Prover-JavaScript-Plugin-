@@ -90,8 +90,8 @@ HOW EUCLID WORKS (HOW EUCLID BUILDS INTERNAL ASSOCIATIONS..
                    times b = c      (00/01)
                 x /
                 
-                Euclid uses axioms that you provide to build an internal representation, or network,
-                (a connected DiGraph) and iff Euclid can then traverse from x to c, 
+                Euclid uses axioms that you provide to build an internal representation, 
+                or network, (a connected DiGraph) and iff Euclid can then traverse from x to c, 
                 the theorem is proved.
                 
                 Notice however that the node is not collapsed any further!
