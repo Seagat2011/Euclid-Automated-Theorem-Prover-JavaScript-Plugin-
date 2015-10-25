@@ -80,15 +80,23 @@ HOW EUCLID WORKS (HOW EUCLID BUILDS INTERNAL ASSOCIATIONS..
             
                 INTERNAL REPRESENTATION
                 
-                a \                 (00)
-                x /
-                
-                a times b = c       (01)
+                a
+                  \                 (00)
+                  /
+                x
+
+                a times b           (01)
+                         \
+                         /
+                       c
                 .
                 .
-                a \
-                   times b = c      (00/01)
-                x /
+                a
+                  \
+                   times b         (00+01)
+                  /       \
+                x         /
+                         c 
                 
                 Euclid uses axioms that you provide to build an internal representation, 
                 or network, (a connected DiGraph) and iff Euclid can then traverse from x to c, 
