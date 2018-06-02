@@ -1,0 +1,66 @@
+<html xmlns="http://www.w3.org/1999/xhtml" hasbrowserhandlers="true"><head>
+<title>Euclid Proof engine 1.0.0.0</title>
+<meta charset="utf-8">
+<link rel="stylesheet" media="all" href="CSS/index.css">
+<body>
+<p>
+<comment># Built-in Axioms</comment><br>
+digit = { 0,1,2,.. }<br>
+integer = {}<br>
+integer . digit = ( digit )+<br>
+number = {}<br>
+number . integer = integer<br>
+number . integer ( [ -+ ] number . integer )* = number . integer<br>
+<br>
+<comment># User Axioms</comment><br>
+1 + 1 = 2<br>
+2 + 2 = 4<br>
+<br>
+<comment># Prove</comment><br>
+<posit>1 + 1 + 1 + 1 = 4</posit><br>
+-----------------<br>
+<table>
+<tbody>
+<tr><td><posit>1 + 1 + 1 + 1 = 4</posit></td><tr>
+<tr><td><hghlt> 1 + 1 </hghlt> + 1 + 1 = 4</td><td><ref>// User . Axiom 0 //</ref></td></tr>
+<tr><td><hghlt> 2 </hghlt> + 1 + 1 = 4 </td></tr>
+<tr><td> 2 + <hghlt> 1 + 1 </hghlt> = 4</td><td><ref>// User . Axiom 0 //</ref></td></tr>
+<tr><td>2 + <hghlt> 2 </hghlt> = 4 </td></tr>
+<tr><td><hghlt>2 + 2</hghlt> = 4</td><td><ref>// User . Axiom 1 //</ref></td></tr>
+</tbody>
+</table>
+-----------------<br>
+<proof>4 = 4</proof> <br>
+.<br>
+.<br>
+.<br>
+( Using Substitution Notation - SN )<br>
+-----------------<br>
+<table>
+<tbody>
+<tr><td><posit>1 + 1 + 1 + 1 = 4</posit></td><tr>
+<tr><td>( 1 + 1 )<sub>0</sub> + 1 + 1 = 4 </td></tr>
+<tr><td>2<sub>0</sub> + 1 + 1 = 4</td></tr>
+<tr><td>2 + ( 1 + 1 )<sub>0</sub>= 4</td></tr>
+<tr><td>2 + 2<sub>0</sub> = 4 </td></tr>
+<tr><td>( 2 + 2 )<sub>1</sub> = 4 </td></tr>
+</tbody>
+</table>
+-----------------<br>
+<proof>4<sub>1</sub> = 4<sub>1</sub></proof><br>
+.<br>
+.<br>
+.<br>
+( Condensed Notation - CN )<br>
+-----------------<br>
+<table>
+<tbody>
+<tr><td><posit>1 + 1 + 1 + 1 = 4</posit></td><tr>
+<tr><td>( ( 1 + 1 )<sub>0</sub> + ( 1 + 1 )<sub>0</sub> )<sub>1</sub> = ( 4 )<sub>1</sub> </td></tr>
+</tbody>
+</table>
+-----------------<br>
+<proof>4<sub>1</sub> = 4<sub>1</sub></proof><br>
+</p>
+</body>
+</html>

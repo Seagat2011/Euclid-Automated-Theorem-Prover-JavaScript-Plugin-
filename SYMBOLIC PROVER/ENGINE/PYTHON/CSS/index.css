@@ -1,0 +1,33 @@
+body {
+  margin:24px;
+}
+
+comment {
+  color:#006e00;
+  font-weight:bold;
+}
+
+ref {
+  color:#00006e;
+  font-weight:bold;
+  padding-left:48px;
+}
+
+proof {
+  /*color:#00006e;*/
+  color:#006e00;
+  font-weight:bold;
+}
+
+posit {
+  font-weight:bold;
+}
+
+hghlt {
+  color:#fe0000;
+  font-weight:bold;
+}
+
+sub {
+  font-size:10px;
+}

@@ -1,0 +1,24 @@
+<html xmlns="http://www.w3.org/1999/xhtml" hasbrowserhandlers="true"><head>
+<title>Euclid Proof engine 1.0.0.0</title>
+<meta charset="utf-8">
+<link rel="stylesheet" media="all" href="CSS/index.css">
+<script src="JS/Object.js"></script>
+<script src="JS/Axioms.js" defer></script>
+<script src="JS/index.js"></script>
+<script src="JS/Editor.js"></script>
+<body onload="srcHighlighter()">
+Euclid Automated Prover <input id=solver class=solver type=button value=Solve onclick="Solve()"><br><br>
+<div id=srcHlt class=edtHlt></div>
+<div id=srcEditor contentEDITABLE class=edtCtl>
+// Libraries<br>
+import * from "JS/Math"<br><br>
+// Axioms<br>
+1 + 1 = 2<br>
+2 + 2 = 4<br><br>
+// Prove (0-[Reduce|Expand|Balance])<br>
+1 + 2 + 2 + 1 = 4
+</div>
+<p>
+</p>
+</body>
+</html>

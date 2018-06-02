@@ -1,0 +1,84 @@
+<html xmlns="http://www.w3.org/1999/xhtml" hasbrowserhandlers="true"><head>
+<title>Euclid Proof Engine v1.0.0.0</title>
+<meta charset="utf-8">
+<link rel="stylesheet" media="all" href="CSS/index.css">
+<script src="JS/Object.js"></script>
+<script src="JS/Behaviors.js"></script>
+<script src="JS/Axioms.js" defer></script>
+<script src="JS/Editor.js"></script>
+<script src="JS/index.js" defer></script>
+<body onload="srcHighlighter()">
+Euclid Automated Prover<br><br>
+<!--
+
+<div id=srcHlt class=edtHlt style="visibility:none;"></div>
+
+<comment>// Langauge (Lexical,Symbols)</comment><br>
+<div id=lexEditor contentEDITABLE class=clsBasicEditor spellcheck=false>
+[0-9+=]
+</div>
+
+-->
+<comment>// Libraries</comment><br>
+<div id=libEditor contentEDITABLE class=clsBasicEditor spellcheck=false>
+import * from "JS/Math"
+</div>
+<comment>// User-defined class definitions</comment><br>
+<div id=synEditor contentEDITABLE class=clsBasicEditor spellcheck=false>
+<br>
+class Math.Symbol.Number.Integer : Math.Symbol.Number.Natural {<br>
+<br>
+&nbsp;&nbsp;this.Unsigned = [Number]<br>
+&nbsp;&nbsp;this.Signed = [Unary]?[Number]<br>
+&nbsp;&nbsp;this.Operator = [Operator]<br>
+<br>
+&nbsp;&nbsp;// A built-in overridable method for generating a continuum or sequence //<br>
+&nbsp;&nbsp;this.__LIST = (lhs) => {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return this.expr + " +..." <br>
+&nbsp;&nbsp;}<br>
+<br>
+}<br>
+<br>
+class Math.Symbol.Number.Complex : Math.Symbol.Number.Irrational  {<br>
+<br>
+&nbsp;&nbsp;this.__GLYPH = R<br>
+&nbsp;&nbsp;this.Signed = [Signed]<br>
+&nbsp;&nbsp;this.Operator = [Operator]<br>
+<br>
+}<br>
+<br>USING Math.Symbol.Number.Integer
+<br>USING Math.Symbol.Number.Complex
+<br>
+</div>
+<comment>// Axioms (Logic,Semantics assumed as valid syntax)</comment><br>
+<div>
+<div id=lineNumber class=clsLineNumber spellcheck=false>
+(1)<br>
+(2)<br>
+(3)<br>
+(4)
+</div>
+<div id=axmEditor contentEDITABLE class=clsBasicEditor spellcheck=false>
+1 + 1 = 2<br>
+2 + 2 = 4<br>
+4 + 2 = 6<br>
+1 + 1 + 1 + 1 + 1 + 1 = 6
+</div>
+</div>
+<comment>// Prove via: [ 
+<prooflink onclick="Solve('Auto')">Auto</prooflink> | 
+<prooflink onclick="Solve('Reduce')">Reduce</prooflink> | 
+<prooflink onclick="Solve('Expand')">Expand</prooflink> | 
+<prooflink onclick="Solve('Reduce-Stepwise')">Reduce-Stepwise</prooflink> | 
+<prooflink onclick="Solve('Expand-Stepwise')">Expand-Stepwise</prooflink> | 
+<prooflink onclick="Solve('Balance')">Balance</prooflink> ]</comment><br>
+<!--<div class=edtCtl>===========================</div>-->
+<div id=edtCtl contentEDITABLE class=edtCtl spellcheck=false>
+1 + 2 + 2 + 1 = 6
+</div>
+<div class=edtCtl>===========================</div>
+<div id=solutionEditor contentEDITABLE class=edtCtl spellcheck=false></div>
+<p>
+</p>
+</body>
+</html>

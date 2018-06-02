@@ -51,7 +51,7 @@ SCRIPT TYPE:
 
 */
 
-var FORMULA_FONT_SIZE = 21 // standard font size for formula library //
+var FORMULA_FONT_SIZE = 20 // standard font size for formula library //
 
 Array.prototype.Repack = function()
 {
@@ -120,7 +120,7 @@ var symbolsMAP = {
 'nand':'&odot;',
 'xor':"\u2297",
 // RELATIONS (38) //
-'Relations':'_______________',
+'_______________':'Relations',
 'lessthan':'&lt;',
 'greaterthan':'&gt;',
 'lessequal':'&le;',
@@ -155,7 +155,7 @@ var symbolsMAP = {
 'nprec':'&nprec;',
 'nsucc':'&nsucc;',
 // SET OPERATIONS (21) //
-'Set Operations':'__________',
+'__________':'Set Operations',
 'in':'&in;',
 'notin':'&notin;',
 'owns':"\u220b",
@@ -181,7 +181,7 @@ var symbolsMAP = {
 'domain':'',
 'range':'',
 // FUNCTIONS (24) //
-'Functions':'_______________',
+'_______________':'Functions',
 'abs':'|',
 'fact':'!',
 'sqrt':'&Sqrt;',
@@ -209,7 +209,7 @@ var symbolsMAP = {
 'arctanh':'',
 'arcoth':'',
 // OPERATORS (39) //
-'Operators':'_______________',
+'_______________':'Operators',
 'Prove':'',
 'lim':'',
 'sum':'&sum;',
@@ -265,7 +265,7 @@ var symbolsMAP = {
 'perthousand':"\u2030",
 'piecewise':'',
 // JS CONDITIONALS //
-'JS Conditionals':'_________',
+'_______________':'JS Conditionals',
 'given':'',
 'let':'',
 'likewise':'',
@@ -287,7 +287,7 @@ var symbolsMAP = {
 'and':'',
 'or':'',
 // ATTRIBUTES (29) //
-'Attributes':'______________',
+'______________':'Attributes',
 'cross':'&times;', //&cross;//
 'acute':'&acute;',
 'grave':'&grave;',
@@ -322,7 +322,7 @@ var symbolsMAP = {
 'magenta':'(text)',
 'yellow':'(text)',
 // BRACKETS (22) //
-'Brackets':'________________',
+'________________':'Brackets',
 'ldbracket':"\u27e6",
 'rdbracket':"\u27e7",
 'lbrace':'&lbrace;',
@@ -345,7 +345,7 @@ var symbolsMAP = {
 '{':'(',
 '}':')',
 // FORMATS (16) //
-'Format':'__________________',
+'__________________':'Format',
 'lsup':'left-superscript',
 'lsub':'left-subscript',
 'csup':'(text)', // &csup; //
@@ -362,7 +362,7 @@ var symbolsMAP = {
 'raised':'^',
 '_':'',
 // OTHERS (19) //
-'Other':'___________________',
+'___________________':'Other',
 'infinity':'&infin;',
 'partial':'&part;',
 'nabla':'&nabla;',
@@ -398,7 +398,7 @@ var symbolsMAP = {
 'manifolds':'',
 'branes':'',
 // GREEK ALPHABET (23) //
-'Greek Alphas':'____________',
+'____________':'Greek Alphas',
 'alpha':'&alpha;',
 'ALPHA':'&Alpha;',
 'beta':'&beta;',
@@ -448,7 +448,7 @@ var symbolsMAP = {
 'omega':'&omega;',
 'OMEGA':'&Omega;',
 // GREEK OPERATORS //
-'Greek Operators':'_________',
+'____________':'Greek Operators',
 'dalpha':'d&alpha;',
 'dbeta':'d&beta;',
 'dgamma':'d&gamma;',
@@ -1277,7 +1277,7 @@ function render(){
     var e = arguments[1]
     var status = {
         true:function(v){
-            srcTranslated.value = v
+            srcTranslated.innerText = v
         },
         false:function(v){
             var s = v.map(function(r,i){
@@ -1304,16 +1304,20 @@ function render(){
                     }
                     if(d.tdUPPER || d.tdLOWER){
                         if(d.tdUPPER){
+                            //tdUPPERSTACK.push('')
                             tdUPPERSTACK.push('')
                             tdUPPERSTACK.push(d.tdUPPER)
                         } else {
+                           // tdUPPERSTACK.push('')
                             tdUPPERSTACK.push('')
                             tdUPPERSTACK.push('')
                         }
                         if(d.tdLOWER){
+                            //tdLOWERSTACK.push('')
                             tdLOWERSTACK.push('')
                             tdLOWERSTACK.push(d.tdLOWER)
                         } else {
+                            //tdLOWERSTACK.push('')
                             tdLOWERSTACK.push('')
                             tdLOWERSTACK.push('')
                         }
@@ -1331,13 +1335,12 @@ function render(){
                     }
                     return val
                 }).join(' ')
+                lineCOUNT = Math.max(lineCOUNT,i)
                 tdUPPERSTACK.push('</td><td>') // lineup for lineCOUNT //
                 tdLOWERSTACK.push('</td><td>') // lineup for lineCOUNT //
                 tdUPPER = tdUPPERSTACK.join('</td><td>')
                 tdLOWER = tdLOWERSTACK.join('</td><td>')
-                var result = ('<table class=cssTABLE><tbody class="cssFormulaFont"><tr class="cssUBOUNDS"><td>'+tdUPPER+
-                '</td></tr><tr class="cssFormula"><td>'+r+
-                '</td><td class="cssLINE">('+getNUM(lineCOUNT++)+')</td></tr><tr class="cssLBOUNDS"><td>'+tdLOWER+'</td></tr></tbody></table>')
+                var result = (`<table class=cssTABLE><tbody class="cssFormulaFont"><tr class="cssUBOUNDS"><td>${tdUPPER}</td></tr><tr class="cssFormula"><td>${r}</td><td class="cssLINE">(${getNUM(i)})</td></tr><tr class="cssLBOUNDS"><td>${tdLOWER}</td></tr></tbody></table>`)
                 return result
             }).join('\n')
             formulaTBL.innerHTML = s
@@ -1349,58 +1352,69 @@ function render(){
 function __reportstatus_ThreadWorker_00(e){
     if(!e.data.error){
         if(e.data.origin == 'ThreadWorker_00'){
-            srcTranslated.value += e.data.value.join('\n') //e.data.value[0] + '\n'
+            srcTranslated.innerText += e.data.value.join('\n') //e.data.value[0] + '\n'
             //render( e.data )
         } else {
-            srcTranslated.value += e.data.value
+            srcTranslated.innerText += e.data.value
         }
     } else {
-        srcTranslated.value = e.data.value
+        srcTranslated.innerText = e.data.value
     }
 }
-
-var file00 = "ThreadWorker_00.js"
-var ThreadWorker_00 = new Worker(file00)
-ThreadWorker_00.addEventListener('message',__reportstatus_ThreadWorker_00,'symbols.js')
-
-function reset()
+/*
+if(window.Worker){
+    try{
+        WEB_WORKER = true
+        var file00 = "ThreadWorker_00.js"
+        ThreadWorker_00 = new Worker(file00)
+        ThreadWorker_00.addEventListener('message',__reportstatus_ThreadWorker_00,'symbols.js')
+    }
+    catch(e){
+        console.log(e)
+        WEB_WORKER =false
+        addEventListener('message',__reportstatus_ThreadWorker_00,'symbols.js')        
+    }
+}
+else{
+    addEventListener('message',__reportstatus_ThreadWorker_00,'symbols.js')
+}
+*/
+function euclid_reset()
 {
     lineCOUNT = 0
 }
 
 function loader() { // loader () //
-    reset()
-    if(!srcCode.value){
-        srcCode.value = 'int from 0 to 5 x raised c dx = c x raised ( c minus 1 ), given c greaterthan 0'
+    euclid_reset()
+    if(!axmEditor.innerText){
+        axmEditor.innerText = 'int from 0 to 5 { x raised c dx } = c times x raised { ( c minus 1 ) }, given c greaterthan 0'
     }
-    srcTranslated.value = ''
+    srcTranslated.innerText = ''
     var s = ''
     var TAG00 = '<option>  '
     var TAG01 = '  </option>\n'
-    for(var v in symbolsMAP){
-        s += TAG00 + v + ' ' + symbolsMAP[v] + TAG01
-    }
+    symbolsMAP.forEach(function(v){ s += TAG00 + v + ' ' + symbolsMAP[v] + TAG01; return v; })
     selBox.innerHTML = s
     spnWindowTitle.innerHTML = ' \u221d '+ spnWindowTitle.innerHTML 
     return
 }
 
 function clear_window() { // clear_window () //
-    reset()
-    srcTranslated.value = ''
+    euclid_reset()
+    srcTranslated.innerText = ''
     return
 }
 
 function MD5() { // generate_MD5 () //
-    var obj = [srcTranslated.value]
-    obj.push('Message Digest v5 Verification key\n'+Math.md5(srcTranslated.value) )
-    srcTranslated.value = obj.join('\n\n')
+    var obj = [srcTranslated.innerText]
+    obj.push('Message Digest v5 Verification key\n'+Math.md5(srcTranslated.innerText) )
+    srcTranslated.innerText = obj.join('\n\n')
     return
 }
 
 function entag(N)
 {
-    var p = N.split(/\n/)
+    var p = N.replace(/\n$/,'').split(/\n/)
     buffer = p.map(function(v){
         return v.replace(/(^\w+|\W+|_|==|\|\|&&)/g, ' $1 ').replace(/(['"\{\}\[\]\(\)])/gm,' $1 ')
     })
@@ -1419,17 +1433,29 @@ function entag(N)
 }
 
 function preview() {
-    reset()
-    render(entag(srcCode.value) )
+    euclid_reset()
+    render(entag(axmEditor.innerText) )
 }
+function preview_render(e){
+    if(e.srcElement.id=="axmEditor"){
+        preview()
+    }
+}
+addEventListener("keyup",preview_render,false)
 
 function translatorTool() { // translatorTool () //
-    reset()
-    try{
-        srcTranslated.value = 'Processing..\n'
-        ThreadWorker_00.postMessage(entag(srcCode.value) )
-     // my_func_ThreadWorker_00({ data:entag(srcCode.value) })
+    euclid_reset()
+    try{        
+        //Solve() // Prover-engine //
+        /*srcTranslated.innerText = 'Processing..\n'
+        if(WEB_WORKER){
+            ThreadWorker_00.postMessage(entag(axmEditor.innerText) )
+        }
+        else{
+            postMessage(entag(axmEditor.innerText),"*" )
+        }*/
+     // my_func_ThreadWorker_00({ data:entag(axmEditor.innerText) })
     } catch (e) {
-        srcTranslated.value = e
+        srcTranslated.innerText = e
     }
 }

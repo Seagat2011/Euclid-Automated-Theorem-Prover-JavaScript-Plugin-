@@ -1,7 +1,12 @@
 
+body {
+    padding-left:30px;
+}
+
 .cssCode {
     width:100%;
     height:35%;
+    margin-bottom: 30px;
     font-family:'liberation mono';
     font-size:12px;
 }
@@ -17,7 +22,7 @@
 }
 .cssWindow {
     font-size:10; 
-    padding-left:30px; 
+    /*padding-left:30px; */
     font-family:'liberation serif';
 }
 .cssPOS {
@@ -48,15 +53,16 @@
     font-size:45;
 }
 .cssFormula {
-    font-size:21;
-    text-align:center;
+    font-size:16px;/*20px;*/
+    font-weight:bold;
+    text-align:left;/*center;*/
 }
 .cssFormulaFont {
     font-family:'liberation serif';
 }
 .cssFormulaTable {
     width:100%;
-    height:35%;
+    /*height:35%;*/
     overflow:auto;
     /*
     white-space:pre-line;
@@ -77,7 +83,7 @@
         display:block;
     }
     .printView {
-        display:block;
+        display:inline-table;/*block;*/
     }
 }
 .cssGNU {
@@ -97,7 +103,7 @@
     overflow:scroll;
 }
 .cssFormulaOperator {
-    font-size:48;
+    font-size:64px;/*48px;*/
     padding-top:0px;
     padding-bottom:10px;
     float:left;
@@ -105,7 +111,7 @@
 .cssLINE {
     font-size:12; 
     padding-bottom:0px;
-    padding-top:0px;
+    padding-top:0px;  
     padding-left:64px;
 }
 .cssGIVEN {
