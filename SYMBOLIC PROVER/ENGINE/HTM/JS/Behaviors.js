@@ -119,87 +119,112 @@ function euclid_add_carry(result){
   }
 }
 
-var OP = {
-    "add": {  
-              __exec:function(lhs,rhs,result){
-                var l = lhs.length
-                var r = rhs.length
-                var K = Math.min(l,r)
-                var Rs = Math.max(l,r)
-                result = this.sizeOf(result,Rs)
-                // addends of equal magnitude //
-                for(var k=0;k<K;k++){
-                  var a = lhs[l-k-1]
-                  var b = rhs[r-k-1]
-                  var tmp = euclid_addition_table[a][b]
-                  result[(Rs-k-1)].push(tmp)
-                  //console.log(`index: ${(Rs-k-1)}`,`value: ${tmp}`)
-                }
-                // addends of unequal magnitude //
-                //console.log(`\nPART II\n`)
-                res = (l>=r) ? lhs : rhs;
-                var J = Rs-K
-                for(var j=0;j<J;j++){
-                  var a = res[(K-j)]
-                  result[(K-j)].push(a)
-                  //console.log(`index: ${(K-j)}`,`value: ${a}`)
-                }
-                euclid_add_carry(result)
-              },
-    
-            "sizeOf":function(result,K){ 
-                    while(K--){
-                      result.push(["zero"])
-                    }
-                    return result
-                  },},
-                  
-    "multiply": { 
-            __exec:function(lhs,rhs,result){
-                var l = lhs.length
-                var r = rhs.length
-                var L = Math.max(l,r)
-                var R = Math.min(l,r)
-                var LHS = (l>=r) ? lhs : rhs;
-                var RHS = (l>=r) ? rhs : lhs;
-                result = this.sizeOf(result,L)
-                // multiplicands of any magnitude //
-                for(var i=0;i<R;i++){
-                  for(var j=0;j<L;j++){
-                    var li = L-j-1
-                    var ri = R-i-1
-                    var a = LHS[li]
-                    var b = RHS[ri]
-                    var tmp = euclid_multiplication_table[a][b]
-                    var ui = li+ri // preserve product place-value //
-                    var new_column_not_required = ((ui) in result)
-                    if(new_column_not_required){
-                      result[ui].push(tmp)
-                    }
-                    else{
-                      while(ui>=result.length){
-                        result.push(["zero"])
-                      }
-                      result[ui].push(tmp)
-                    }
-                  }
-                }
-                euclid_add_carry(result)
-            },
-
-            "sizeOf":function(result,K){ 
-                    while(K--){
-                      result.push(["zero"])
-                    }
-                    return result
-                  },}
-}
-
-function euclid_operation(lhs,rhs,op){
-  // result[0] holds MSB //
-  var result = []
-  //rhs = ["five","four","three","seven","nine"]
-  //lhs = ["five","five"]
-  OP[op].__exec(lhs,rhs,result)
+var sizeOf = function(result,K){ 
+  while(K--){
+    result.push(["zero"])
+  }
   return result
 }
+
+var euclid_operation = {
+  add (args) {
+    var result = [];
+    var lhs = [];
+    var rhs = [];
+    if(args.length<2){
+      result = args[0]
+    }
+    else{
+      while(args.length){
+        lhs = [...args.shift()]
+        if(result.length){
+          rhs = [...result]
+        }
+        else{
+          rhs = [...args.shift()]
+        }
+        var l = lhs.length
+        var r = rhs.length
+        var K = Math.min(l,r)
+        var Rs = Math.max(l,r)
+        var result = sizeOf([],Rs)
+        // addends of equal magnitude //
+        for(var k=0;k<K;k++){
+          var a = lhs[l-k-1]
+          var b = rhs[r-k-1]
+          var tmp = euclid_addition_table[a][b]
+          result[(Rs-k-1)].push(tmp)
+        }
+        // addends of unequal magnitude //
+        res = (l>=r) ? lhs : rhs;
+        var J = Rs-K
+        for(var j=0;j<J;j++){
+          var a = res[(J-j-1)]
+          result[(J-j-1)].push(a)
+        }
+        euclid_add_carry(result)
+      } // loop(args) //
+    }
+    return result
+    },
+                
+  multiply (args) {
+    var result = [];
+    var lhs = [];
+    var rhs = [];
+    if(args.length<2){
+      result = args[0]
+    }
+    else{
+      while(args.length){
+        lhs = [...args.shift()]
+        if(result.length){
+          rhs = [...result]
+        }
+        else{
+          rhs = [...args.shift()]
+        }
+        var l = lhs.length
+        var r = rhs.length
+        var L = Math.max(l,r)
+        var R = Math.min(l,r)
+        var LHS = (l>=r) ? lhs : rhs;
+        var RHS = (l>=r) ? rhs : lhs;
+        result = sizeOf([],L)
+        // multiplicands of any magnitude //
+        for(var i=0;i<R;i++){
+          for(var j=0;j<L;j++){
+            var li = L-j-1
+            var ri = R-i-1
+            var a = LHS[li]
+            var b = RHS[ri]
+            var tmp = euclid_multiplication_table[a][b]
+            var ui = li+ri // preserve product place-value //
+            var new_column_not_required = ((ui) in result)
+            if(new_column_not_required){
+              result[ui].push(tmp)
+            }
+            else{
+              while(ui>=result.length){
+                result.push(["zero"])
+              }
+              result[ui].push(tmp)
+            }
+          }
+        }
+        euclid_add_carry(result)
+      } // loop(args.length) //
+    } // end test(result) //
+    return result
+    }, 
+}
+
+/* TEST CASE
+
+_rhs_ = ["five","four","three","seven","nine"] // 54379
+_lhs_ = ["five","five"] // 55
+
+console.log( euclid_operation["multiply"]( [_rhs_,_lhs_] ) ) // ["two","nine","nine","zero","eight","four",five"] // 299085
+console.log( euclid_operation["add"]( [_rhs_,_lhs_] ) ) // ["five","four","four","three","four"] // 54434
+
+*/
