@@ -8,7 +8,7 @@ Euclid is separated into two (2) tools :<br/>
 ( 2 ) A Symbol editor and axiom-supported prover ( extensible )<br/>
 <br/>
 <br/>
-..these two (2) tools are the minimum requirements for documenting a state-of-the-art original proof.
+..these two (2) tools are the minimum requirements for documenting a state-of-the-art proof.
 
 ## Screenshot 1  
 ![screenshot](SYMBOLIC%20PROVER/IMG/Screenshot_2018-06-02_07-35-05.png)  
