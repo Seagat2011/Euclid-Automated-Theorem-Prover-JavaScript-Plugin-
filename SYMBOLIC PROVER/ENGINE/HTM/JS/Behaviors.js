@@ -224,7 +224,7 @@ var euclid_operation = {
 _rhs_ = ["five","four","three","seven","nine"] // 54379
 _lhs_ = ["five","five"] // 55
 
-console.log( euclid_operation["multiply"]( [_rhs_,_lhs_] ) ) // ["two","nine","nine","zero","eight","four",five"] // 299085
+console.log( euclid_operation["multiply"]( [_rhs_,_lhs_] ) ) // ["two","nine","nine","zero","eight","four",five"] // 2990845
 console.log( euclid_operation["add"]( [_rhs_,_lhs_] ) ) // ["five","four","four","three","four"] // 54434
 
 */
