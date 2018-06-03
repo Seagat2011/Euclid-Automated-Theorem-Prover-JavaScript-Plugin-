@@ -1304,20 +1304,16 @@ function render(){
                     }
                     if(d.tdUPPER || d.tdLOWER){
                         if(d.tdUPPER){
-                            //tdUPPERSTACK.push('')
                             tdUPPERSTACK.push('')
                             tdUPPERSTACK.push(d.tdUPPER)
                         } else {
-                           // tdUPPERSTACK.push('')
                             tdUPPERSTACK.push('')
                             tdUPPERSTACK.push('')
                         }
                         if(d.tdLOWER){
-                            //tdLOWERSTACK.push('')
                             tdLOWERSTACK.push('')
                             tdLOWERSTACK.push(d.tdLOWER)
                         } else {
-                            //tdLOWERSTACK.push('')
                             tdLOWERSTACK.push('')
                             tdLOWERSTACK.push('')
                         }
@@ -1335,12 +1331,12 @@ function render(){
                     }
                     return val
                 }).join(' ')
-                lineCOUNT = Math.max(lineCOUNT,i)
+                lineCOUNT = Math.max(lineCOUNT,(i+1))
                 tdUPPERSTACK.push('</td><td>') // lineup for lineCOUNT //
                 tdLOWERSTACK.push('</td><td>') // lineup for lineCOUNT //
                 tdUPPER = tdUPPERSTACK.join('</td><td>')
                 tdLOWER = tdLOWERSTACK.join('</td><td>')
-                var result = (`<table class=cssTABLE><tbody class="cssFormulaFont"><tr class="cssUBOUNDS"><td>${tdUPPER}</td></tr><tr class="cssFormula"><td>${r}</td><td class="cssLINE">(${getNUM(i)})</td></tr><tr class="cssLBOUNDS"><td>${tdLOWER}</td></tr></tbody></table>`)
+                var result = (`<table class=cssTABLE><tbody class="cssFormulaFont"><tr class="cssUBOUNDS"><td>${tdUPPER}</td></tr><tr class="cssFormula"><td>${r}</td><td class="cssLINE">(${getNUM(lineCOUNT)})</td></tr><tr class="cssLBOUNDS"><td>${tdLOWER}</td></tr></tbody></table>`)
                 return result
             }).join('\n')
             formulaTBL.innerHTML = s
@@ -1361,24 +1357,7 @@ function __reportstatus_ThreadWorker_00(e){
         srcTranslated.innerText = e.data.value
     }
 }
-/*
-if(window.Worker){
-    try{
-        WEB_WORKER = true
-        var file00 = "ThreadWorker_00.js"
-        ThreadWorker_00 = new Worker(file00)
-        ThreadWorker_00.addEventListener('message',__reportstatus_ThreadWorker_00,'symbols.js')
-    }
-    catch(e){
-        console.log(e)
-        WEB_WORKER =false
-        addEventListener('message',__reportstatus_ThreadWorker_00,'symbols.js')        
-    }
-}
-else{
-    addEventListener('message',__reportstatus_ThreadWorker_00,'symbols.js')
-}
-*/
+
 function euclid_reset()
 {
     lineCOUNT = 0
@@ -1444,17 +1423,8 @@ function preview_render(e){
 addEventListener("keyup",preview_render,false)
 
 function translatorTool() { // translatorTool () //
-    euclid_reset()
-    try{        
-        //Solve() // Prover-engine //
-        /*srcTranslated.innerText = 'Processing..\n'
-        if(WEB_WORKER){
-            ThreadWorker_00.postMessage(entag(axmEditor.innerText) )
-        }
-        else{
-            postMessage(entag(axmEditor.innerText),"*" )
-        }*/
-     // my_func_ThreadWorker_00({ data:entag(axmEditor.innerText) })
+    try{ 
+        euclid_reset()
     } catch (e) {
         srcTranslated.innerText = e
     }
