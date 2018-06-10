@@ -11,7 +11,7 @@ Euclid is separated into two (2) tools :<br/>
 ..these two (2) tools are the minimum requirements for documenting a state-of-the-art proof.
 
 ## Screenshot 1  
-![screenshot](SYMBOLIC%20PROVER/IMG/Screenshot_2018-06-02_07-35-05.png)  
+![screenshot](SYMBOLIC%20PROVER/IMG/Screenshot_2018-06-03_12-17-39.png)  
   
 ## Screenshot 2  
 ![screenshot](SYMBOLIC%20PROVER/IMG/sample_screenshot.png)  
