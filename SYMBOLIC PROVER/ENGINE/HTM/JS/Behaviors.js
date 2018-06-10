@@ -1,4 +1,3 @@
-
 /*
 
   TITLE: 
@@ -10,221 +9,237 @@
 
   DESCRIPTION: 
   Main (math) operations interface to euclid and its components
+  to operate on numbers of infinite magnitude
 
   UPDATED
   +Available operations (add,multiply)
+  +Revised internal number representation (performance)
 
   REFERENCES:
 
-  INPUT: 
-  op = "multiply" 
-  rhs = ["five","four","three","seven","nine"] // 54379
-  lhs = ["five","five"] // 55
+  TEST CASES: 
 
-  euclid_operation(lhs,rhs,op)
+  _rhs_ = '54379'
+  _lhs_ = '55'
+  console.log( euclid_operation["add"]( [_rhs_,_lhs_] ) ) // '54434' 
+  console.log( euclid_operation["add"]( [_rhs_,_lhs_,_lhs_,_lhs_] ) ) // '54544' 
+  console.log( euclid_operation["mult"]( [_rhs_,_lhs_] ) ) // '2990845' 
 
-  OUTPUT:
-  ["two","nine","nine","zero","eight","four","five"]  // 2990845
+  _rhs_ = '5437955555'
+  _lhs_ = '5555554379'
+  console.log( euclid_operation["mult"]( [_rhs_,_lhs_] ) ) // '30210857796387625345' 
+
+  _lhs_ = []
+  _rhs_ = []
+  for(var i=0;i<1e4;i++){ 
+    _lhs_.push(Math.floor(Math.random()*10)); // eg. 7098304882360020720796160762297300381468514667792154049788667527780627801534604067107687525730402417
+    _rhs_.push(Math.floor(Math.random()*10)); // eg. 9155738670598384026247188934462192826077798037115972850260469939179096904288260182980618411131691940 
+
+  }
+  euclid_operation["mult"]( [_rhs_.join(''),_lhs_.join('')] ) // eg. '64990224507120954830431350279613854261635043065747861729032597048651797897345475926325069109323814415474976047993149825690040695606991469897439989128921024213301765728297345753230285726335998275418980' 
 
   SCRIPT TYPE: 
   Euclid Tool
 
 */
-
-function euclid_num_array_to_string_object(arr){
-  var o = {}
-  var u = { "0":"zero","1":"one","2":"two","3":"three","4":"four","5":"five","6":"six","7":"seven","8":"eight","9":"nine" }
-  var a = ["zero","one","two","three","four","five","six","seven","eight","nine"].map(function(i,idx,me){
-      o[i] = arr[idx].toString().split('').map(function(j,jdx,metoo){ return u[j] }).join(".")
-    })
-  return o    
+var euclid_num_to_numstr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+var euclic_numstr_to_num = {
+  "0": 0,
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "5": 5,
+  "6": 6,
+  "7": 7,
+  "8": 8,
+  "9": 9
 }
-
-function euclid_num_array_to_string_array(arr){
-  var a = ["zero","one","two","three","four","five","six","seven","eight","nine"]
-  return arr.map(function(i,idx,me){ 
-    return a[i]
+Object.prototype.euclid_numstr_array_to_num_array = function() {
+  return this.map(function(i) {
+    return euclic_numstr_to_num[i]
   })
-
 }
-
-var euclid_addition_table = {
-  "zero":   euclid_num_array_to_string_object([0,1,2,3,4,5,6,7,8,9]),   
-  "one":    euclid_num_array_to_string_object([1,2,3,4,5,6,7,8,9,10]),
-  "two":    euclid_num_array_to_string_object([2,3,4,5,6,7,8,9,10,11]),
-  "three":  euclid_num_array_to_string_object([3,4,5,6,7,8,9,10,11,12]),
-  "four":   euclid_num_array_to_string_object([4,5,6,7,8,9,10,11,12,13]),
-  "five":   euclid_num_array_to_string_object([5,6,7,8,9,10,11,12,13,14]),
-  "six":    euclid_num_array_to_string_object([6,7,8,9,10,11,12,13,14,15]),
-  "seven":  euclid_num_array_to_string_object([7,8,9,10,11,12,13,14,15,16]),
-  "eight":  euclid_num_array_to_string_object([8,9,10,11,12,13,14,15,16,17]),
-  "nine":   euclid_num_array_to_string_object([9,10,11,12,13,14,15,16,17,18])
+Object.prototype._numstr_to_num_array = function() {
+  return (this.split('')).euclid_numstr_array_to_num_array()
 }
-
-var euclid_multiplication_table = {
-  "zero":   euclid_num_array_to_string_object([0,0,0,0,0,0,0,0,0,0]),    
-  "one":    euclid_num_array_to_string_object([0,1,2,3,4,5,6,7,8,9]),
-  "two":    euclid_num_array_to_string_object([0,2,4,6,8,10,12,14,16,18]),
-  "three":  euclid_num_array_to_string_object([0,3,6,9,12,15,18,21,24,27]),
-  "four":   euclid_num_array_to_string_object([0,4,8,12,16,20,24,28,32,36]),
-  "five":   euclid_num_array_to_string_object([0,5,10,15,20,25,30,35,40,45]),
-  "six":    euclid_num_array_to_string_object([0,6,12,18,24,30,36,42,48,54]),
-  "seven":  euclid_num_array_to_string_object([0,7,14,21,28,35,42,49,56,63]),
-  "eight":  euclid_num_array_to_string_object([0,8,16,24,32,40,48,56,64,72]),
-  "nine":   euclid_num_array_to_string_object([0,9,18,27,36,45,54,63,72,81])
-}
-
-function euclid_add_carry(result){
-  var re = /\./;
-  // distille addends into columns //
-  for(var i=(result.length-1);i>-1;i--){
-    for(var j = (result[i].length-1);j>-1;j--){
-      var tmp = result[i][j]
-      var overflow_carry = (tmp && tmp.match(re) && true)
-      if(overflow_carry){ // perform carry, if needed //
-        tmp = tmp.split(re)
-        var n = tmp.length-1
-        var new_column_not_required = ((i-1) in result)
-        result[i][j] = tmp[n]
-        if(new_column_not_required){
-          result[(i-1)].push(tmp[0])
-        }
-        else {
-          result.unshift([tmp[0]])
-        }
-      }
-    }
-  }
-  // sum columns //
-  for(var i=(result.length-1);i>-1;i--){
-    var sum = "zero"
-    for(var j = (result[i].length-1);j>-1;j--){
-      var tmp = result[i][j]
-      sum = euclid_addition_table[tmp][sum]
-      var overflow_carry = (sum && sum.match(re) && true)
-      if(overflow_carry){ // carry, if needed //
-        tmp = sum.split(re)
-        var n = tmp.length-1
-        var new_column_not_required = ((i-1) in result)
-        if(new_column_not_required){
-          result[(i-1)].push(tmp[0])
-          sum = tmp[n]
-        }
-        else {
-          result.unshift([tmp[0]])
-        }
-      }
-    }
-    result[i] = sum
-  }
-}
-
-var sizeOf = function(result,K){ 
-  while(K--){
-    result.push(["zero"])
-  }
-  return result
-}
-
 var euclid_operation = {
-  add (args) {
+  add(args) {
     var result = [];
     var lhs = [];
     var rhs = [];
-    if(args.length<2){
+    if (args.length < 2) {
       result = args[0]
-    }
-    else{
-      while(args.length){
-        lhs = [...args.shift()]
-        if(result.length){
-          rhs = [...result]
-        }
-        else{
-          rhs = [...args.shift()]
+    } else {
+      while (args.length) {
+        // input args //
+        lhs = (args.shift())._numstr_to_num_array()
+        if (args.length) {
+          rhs = (args.shift())._numstr_to_num_array()
         }
         var l = lhs.length
         var r = rhs.length
-        var K = Math.min(l,r)
-        var Rs = Math.max(l,r)
-        var result = sizeOf([],Rs)
-        // addends of equal magnitude //
-        for(var k=0;k<K;k++){
-          var a = lhs[l-k-1]
-          var b = rhs[r-k-1]
-          var tmp = euclid_addition_table[a][b]
-          result[(Rs-k-1)].push(tmp)
+        var L = Math.max(l, r)
+        var R = Math.min(l, r)
+        var LHS = (l >= r) ? lhs : rhs;
+        var RHS = (l >= r) ? rhs : lhs;
+        if (!result.length) {
+          // init result[] //
+          for (var i = L - 1; i > -1; i--) {
+            result.push([0])
+          }
+        } else {
+          L = Math.max(l, result.length)
         }
-        // addends of unequal magnitude //
-        res = (l>=r) ? lhs : rhs;
-        var J = Rs-K
-        for(var j=0;j<J;j++){
-          var a = res[(J-j-1)]
-          result[(J-j-1)].push(a)
-        }
-        euclid_add_carry(result)
-      } // loop(args) //
-    }
-    return result
-    },
-                
-  multiply (args) {
-    var result = [];
-    var lhs = [];
-    var rhs = [];
-    if(args.length<2){
-      result = args[0]
-    }
-    else{
-      while(args.length){
-        lhs = [...args.shift()]
-        if(result.length){
-          rhs = [...result]
-        }
-        else{
-          rhs = [...args.shift()]
-        }
-        var l = lhs.length
-        var r = rhs.length
-        var L = Math.max(l,r)
-        var R = Math.min(l,r)
-        var LHS = (l>=r) ? lhs : rhs;
-        var RHS = (l>=r) ? rhs : lhs;
-        result = sizeOf([],L)
-        // multiplicands of any magnitude //
-        for(var i=0;i<R;i++){
-          for(var j=0;j<L;j++){
-            var li = L-j-1
-            var ri = R-i-1
-            var a = LHS[li]
-            var b = RHS[ri]
-            var tmp = euclid_multiplication_table[a][b]
-            var ui = li+ri // preserve product place-value //
-            var new_column_not_required = ((ui) in result)
-            if(new_column_not_required){
-              result[ui].push(tmp)
-            }
-            else{
-              while(ui>=result.length){
-                result.push(["zero"])
-              }
-              result[ui].push(tmp)
+        var _lhs_ = l - 1
+        var _rhs_ = r - 1
+        for (var i = L - 1; i > -1; i--) {
+          // build columns //
+          var nop = true
+          if (_lhs_ > -1) {
+            result[i].push(LHS[_lhs_--])
+            if (nop) {
+              nop = false
             }
           }
+          if (_rhs_ > -1) {
+            result[i].push(RHS[_rhs_--])
+            if (nop) {
+              nop = false
+            }
+          }
+          if (nop) {
+            break
+          }
         }
-        euclid_add_carry(result)
-      } // loop(args.length) //
-    } // end test(result) //
-    return result
-    }, 
+        for (var i = result.length - 1; i > -1; i--) {
+          // sum columns //
+          var s = 0
+          var arr = result[i]
+          for (var j = arr.length - 1; j > -1; j--) {
+            s += arr[j]
+          }
+          var column_exists = (((i - 1)in result) && true)
+          var carry_out = Math.floor(s / 10)
+          if (carry_out) {
+            var val = s - carry_out * 10
+            result[i] = [val]
+            if (column_exists) {
+              result[i - 1].push(carry_out)
+            } else {
+              result.unshift([carry_out])
+            }
+          } else {
+            result[i] = [s]
+          }
+        }
+      }
+    }
+    return result.join('')
+  },
+  mult(args) {
+    var result = [];
+    var lhs = [];
+    var rhs = [];
+    if (args.length < 2) {
+      result = args[0]
+    } else {
+      while (args.length) {
+        // input args //
+        if (result.length) {
+          lhs = [...result]
+        } else {
+          lhs = (args.shift())._numstr_to_num_array()
+        }
+        if (args.length) {
+          rhs = (args.shift())._numstr_to_num_array()
+        }
+        var l = lhs.length
+        var r = rhs.length
+        var L = Math.max(l, r)
+        var R = Math.min(l, r)
+        var LHS = (l >= r) ? lhs : rhs;
+        var RHS = (l >= r) ? rhs : lhs;
+        result = []
+        for (var i = L - 1; i > -1; i--) {
+          // init result[] //
+          result.push([])
+        }
+        var _lhs_ = l - 1
+        var _rhs_ = r - 1
+        var nop = false
+        while (!nop) {
+          // build-then-multiply columns //
+          if ((_lhs_ > -1) && (_rhs_ > -1)) {
+            var val = RHS[_rhs_] * LHS[_lhs_]
+            var _idx_ = (_rhs_ + _lhs_)
+            var add_new_column = (!(_idx_ in result) && true)
+            if (add_new_column) {
+              while (result.length <= _idx_) {
+                result.unshift([])
+              }
+            }
+            result[_idx_].push(val)
+          } else if (_lhs_ > -1) {
+            var val = LHS[_lhs_]
+            var _idx_ = (_lhs_)
+            var add_new_column = (!(_idx_ in result) && true)
+            if (add_new_column) {
+              while (result.length <= _idx_) {
+                result.unshift([])
+              }
+            }
+            result[_idx_].push(val)
+          } else if (_rhs_ > -1) {
+            var val = RHS[_rhs_]
+            var _idx_ = (_rhs_)
+            var add_new_column = (!(_idx_ in result) && true)
+            if (add_new_column) {
+              while (result.length <= _idx_) {
+                result.unshift([])
+              }
+            }
+            result[_idx_].push(val)
+          } else {
+            nop = true
+          }
+          if (_lhs_ > 0) {
+            _lhs_--
+          } else if (_rhs_ > 0) {
+            _rhs_--
+            _lhs_ = l - 1
+            // reset inner-loop //
+          } else {
+            break
+          }
+        }
+        // loop(cols) //
+        for (var i = result.length - 1; i > -1; i--) {
+          // sum columns //
+          var s = 0
+          var arr = result[i]
+          for (var j = arr.length - 1; j > -1; j--) {
+            s += arr[j]
+          }
+          var column_exists = (((i - 1)in result) && true)
+          var carry_out = Math.floor(s / 10)
+          if (carry_out) {
+            var val = s - carry_out * 10
+            result[i] = [val]
+            if (column_exists) {
+              result[i - 1].push(carry_out)
+            } else {
+              result.unshift([carry_out])
+            }
+          } else {
+            result[i] = [s]
+          }
+        }
+        // loop(result) //
+      }
+      // loop(true) //
+    }
+    // test(args) //
+    return result.join('')
+  },
 }
-
-/* TEST CASE
-
-_rhs_ = ["five","four","three","seven","nine"] // 54379
-_lhs_ = ["five","five"] // 55
-
-console.log( euclid_operation["multiply"]( [_rhs_,_lhs_] ) ) // ["two","nine","nine","zero","eight","four",five"] // 2990845
-console.log( euclid_operation["add"]( [_rhs_,_lhs_] ) ) // ["five","four","four","three","four"] // 54434
-
-*/
