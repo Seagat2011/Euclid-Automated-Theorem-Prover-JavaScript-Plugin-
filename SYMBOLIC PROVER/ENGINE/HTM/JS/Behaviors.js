@@ -14,6 +14,7 @@
   UPDATED
   +Available operations (add,multiply)
   +Revised internal number representation (performance)
+  +Add algorithm uses lookup table reference (performance)
 
   REFERENCES:
 
@@ -42,6 +43,23 @@
   Euclid Tool
 
 */
+var euclid_add = {}
+for(var i=0;i<10;i++){
+  for(var j=0;j<10;j++){
+    for(var c_out=0;c_out<10;c_out++){
+      if(!(i in euclid_add)){
+        euclid_add[i] = {}
+      }
+      if(!(j in euclid_add[i])){
+        euclid_add[i][j] = {}
+      }
+      var val = i+j+c_out
+      euclid_add[i][j][c_out] = { carry:0,sum:0 }
+      euclid_add[i][j][c_out].carry = Math.floor(val/10)
+      euclid_add[i][j][c_out].sum = val%10
+    }
+  }
+}
 var euclid_num_to_numstr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var euclic_numstr_to_num = {
   "0": 0,
@@ -73,65 +91,35 @@ var euclid_operation = {
     } else {
       while (args.length) {
         // input args //
-        lhs = (args.shift())._numstr_to_num_array()
-        if (args.length) {
-          rhs = (args.shift())._numstr_to_num_array()
+        if(result.length){
+          lhs = [...result]
         }
-        var l = lhs.length
-        var r = rhs.length
+        else{
+          lhs = (args.shift()).split('')
+        }
+        if (args.length) {
+          rhs = (args.shift()).split('')
+        }
+        var l = lhs.length-1
+        var r = rhs.length-1
         var L = Math.max(l, r)
         var R = Math.min(l, r)
         var LHS = (l >= r) ? lhs : rhs;
         var RHS = (l >= r) ? rhs : lhs;
-        if (!result.length) {
-          // init result[] //
-          for (var i = L - 1; i > -1; i--) {
-            result.push([0])
-          }
-        } else {
-          L = Math.max(l, result.length)
-        }
-        var _lhs_ = l - 1
-        var _rhs_ = r - 1
-        for (var i = L - 1; i > -1; i--) {
-          // build columns //
-          var nop = true
-          if (_lhs_ > -1) {
-            result[i].push(LHS[_lhs_--])
-            if (nop) {
-              nop = false
-            }
-          }
-          if (_rhs_ > -1) {
-            result[i].push(RHS[_rhs_--])
-            if (nop) {
-              nop = false
-            }
-          }
-          if (nop) {
-            break
-          }
-        }
-        for (var i = result.length - 1; i > -1; i--) {
-          // sum columns //
-          var s = 0
-          var arr = result[i]
-          for (var j = arr.length - 1; j > -1; j--) {
-            s += arr[j]
-          }
-          var column_exists = (((i - 1)in result) && true)
-          var carry_out = Math.floor(s / 10)
-          if (carry_out) {
-            var val = s - carry_out * 10
-            result[i] = [val]
-            if (column_exists) {
-              result[i - 1].push(carry_out)
-            } else {
-              result.unshift([carry_out])
-            }
-          } else {
-            result[i] = [s]
-          }
+        result = []
+        var carry_out = 0
+        var carry_out2 = 0
+        while((l>-1)||(r>-1)){
+          var _lhs_ = LHS[l]
+          var _rhs_ = (r<0) ? 0 : RHS[r];
+          var val = euclid_add[_lhs_][_rhs_][carry_out]
+          carry_out = val.carry
+          result[l] = val.sum
+          --l
+          --r
+        } // end loop(l,r)
+        if(carry_out){
+          result.unshift(carry_out)
         }
       }
     }
