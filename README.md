@@ -9,7 +9,10 @@ Euclid is separated into two (2) tools :<br/>
 <br/>
 <br/>
 ..these two (2) tools are the minimum requirements for documenting a state-of-the-art proof.
-
+<details>  
+  
+<summary> Click to view screenshot images</summary>  
+  
 ## Screenshot 1  
 ![screenshot](SYMBOLIC%20PROVER/IMG/Screenshot_2018-06-03_12-17-39.png)  
   
@@ -21,3 +24,5 @@ Euclid is separated into two (2) tools :<br/>
   
 ## Screenshot 4  
 ![screenshot](SYMBOLIC%20PROVER/IMG/sample_screenshot_5.png)  
+  
+</details>
