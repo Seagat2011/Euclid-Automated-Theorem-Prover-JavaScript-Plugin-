@@ -27,7 +27,7 @@ EUCLID TEST CASE  [PASS]
 1 + 1 = 2    
 2 + 2 = 4    
 4 + 2 = 6    
-1 + 1 + 1 + 1 + 1 + 1 = 6b    
+1 + 1 + 1 + 1 + 1 + 1 = 6    
 Prove: 1 + 2 + 2 + 1 = 6    
     
     
@@ -278,7 +278,7 @@ TEST CASE  [PASS]
 122 + 122 = 244    
 1 + 244 = 245    
 123 + 123 = 246    
-lemma: 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 246    
+Prove: 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 246    
     
     
 TEST CASE  [PASS] // Implementation hint: a state-machine records function calls and paramater-lists and whether or not they are valid    
@@ -288,7 +288,7 @@ two plus two = four
 four plus two = six    
 one plus one plus one plus one plus one plus one = six    
     
-lemma: one plus two plus two plus one = six    
+Prove: one plus two plus two plus one = six    
     
     
 TEST CASE [PASS] // Implementation hint: a state-machine records function calls and paramater-lists and whether or not such are valid    
@@ -298,7 +298,7 @@ Num(2) Op(+) Num(2) = Num(4)
 Num(4) Op(+) Num(2) = Num(6)    
 Num(1) Op(+) Num(1) Op(+) Num(1) Op(+) Num(1) Op(+) Num(1) Op(+) Num(1) = Num(6)    
     
-lemma: Num(1) Op(+) Num(2) Op(+) Num(2) Op(+) Num(1) = Num(6)    
+Prove: Num(1) Op(+) Num(2) Op(+) Num(2) Op(+) Num(1) = Num(6)    
     
     
 TEST CASE // Implementation hint: a state-machine records function calls and paramater-lists and whether or not they are valid    
@@ -316,7 +316,7 @@ Symbol.Number.Integer.Signed{ 2 } Symbol.Number.Integer.Operator{ + } Symbol.Num
 Symbol.Number.Integer.Signed{ 4 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 2 } = Symbol.Number.Integer.Signed{ 6 }    
 Symbol.Number.Integer.Signed{ 1 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 1 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 1 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 1 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 1 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 1 } = Symbol.Number.Integer.Signed{ 6 }    
     
-lemma: Symbol.Number.Integer.Signed{ 1 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 2 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 2 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 1 } Symbol.Number.Integer.Operator{ = } Symbol.Number.Integer.Signed{ 6 }    
+Prove: Symbol.Number.Integer.Signed{ 1 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 2 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 2 } Symbol.Number.Integer.Operator{ + } Symbol.Number.Integer.Signed{ 1 } Symbol.Number.Integer.Operator{ = } Symbol.Number.Integer.Signed{ 6 }    
     
     
 TEST CASE [PASS]    
@@ -327,7 +327,7 @@ TEST CASE [PASS]
 { real { 4 } } plus { real { 2 } } = { real { 6 } }    
 { real { 1 } } plus { real { 1 } } plus { real { 1 } } plus { real { 1 } } plus { real { 1 } } plus { real { 1 } } = { real { 6 } }    
     
-lemma: { real { 1 } } plus { real { 2 } } plus { real { 2 } } plus { real { 1 } } = { real { 6 } }    
+Prove: { real { 1 } } plus { real { 2 } } plus { real { 2 } } plus { real { 1 } } = { real { 6 } }    
     
     
 TEST CASE [PASS]    
@@ -340,7 +340,7 @@ USING Math.Symbol.Number.Real
 {4} plus {2} = {6}    
 {1} plus {1} plus {1} plus {1} plus {1} plus {1} = {6}    
     
-lemma: {1} plus {2} plus {2} plus {1} = {6}    
+Prove: {1} plus {2} plus {2} plus {1} = {6}    
     
     
 TEST CASE [PASS]    
@@ -353,7 +353,7 @@ USING Math.Symbol.Number.Real
 { 4 } plus { 2 } = { 6 }    
 { 1 } plus { 1 } plus { 1 } plus { 1 } plus { 1 } plus { 1 } = { 6 }    
     
-lemma: { 1 } plus { 2 } plus { 2 } plus { 1 } = { 6 }    
+Prove: { 1 } plus { 2 } plus { 2 } plus { 1 } = { 6 }    
     
     
 TEST CASE [PASS]    
@@ -365,7 +365,7 @@ USING Math.Symbol.Number.Real
 { 4 } + { 2 } = { 6 }    
 { 1 } + { 1 } + { 1 } + { 1 } + { 1 } + { 1 } = { 6 }    
     
-lemma: { 1 } + { 2 } + { 2 } + { 1 } = { 6 }    
+Prove: { 1 } + { 2 } + { 2 } + { 1 } = { 6 }    
     
     
 TEST CASE [PASS]    
@@ -378,7 +378,7 @@ USING Math.Symbol.Number.Real
 { four } plus { two } = { six }    
 { one } plus { one } plus { one } plus { one } plus { one } plus { one } = { six }    
     
-lemma: { one } plus { two } plus { two } plus { one } = { six }    
+Prove: { one } plus { two } plus { two } plus { one } = { six }    
     
     
 TEST CASE [PASS]    
@@ -388,7 +388,7 @@ TEST CASE [PASS]
 { 4 } { + } { 2 } = { 6 }    
 { 1 } { + } { 1 } { + } { 1 } { + } { 1 } { + } { 1 } { + } { 1 } = { 2 }    
     
-lemma: { 1 } { + } { 2 } { + } { 2 } { + } { 1 } = { 6 }    
+Prove: { 1 } { + } { 2 } { + } { 2 } { + } { 1 } = { 6 }    
     
     
 TEST CASE    
@@ -396,7 +396,7 @@ TEST CASE
 { one } plus { two } plus { ellipsis } = Infinity  // 1 + 2 + ... = Inf //    
 { $Z(0) } plus { zero } plus { zero } plus { ellipses } = { $Z(0) } // Z_0 + 0 + 0 + ... = Z_0 //    
     
-lemma: { one } plus { zero } plus { zero } plus { zero } = { one }    
+Prove: { one } plus { zero } plus { zero } plus { zero } = { one }    
     
     
     
