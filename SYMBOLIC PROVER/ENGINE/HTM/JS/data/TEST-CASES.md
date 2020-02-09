@@ -1,6 +1,8 @@
     
 Notes: (curly) braces ,{}, are euclid's scope operators and are required. There must be exactly one (1) space between a brace and a token (eg. { 1 } plus { 1 } = { 2 } ),    
 and a brace cannot come in physical contact with another token (eg. Symbol.Number.Integer.Signed { 1 } )    
+
+Notes: LHS or RHS should be considered condensed.   
     
 TEST CASE  [PASS]    
     
@@ -9,7 +11,7 @@ TEST CASE  [PASS]
 4 + 2 = 6    
 1 + 1 + 1 + 1 + 1 + 1 = 6    
     
-lemma: 1 + 2 + 2 + 1 = 6    
+Prove: 1 + 2 + 2 + 1 = 6    
     
     
 TEST CASE    
@@ -19,7 +21,7 @@ TEST CASE
 4 + 2 = 6    
 1 + 1 + 1 + 1 + 1 + 1 = 6    
     
-lemma: 1 + 2 + 2 + 1 = 6    
+Prove: 1 + 2 + 2 + 1 = 6    
     
     
 EUCLID TEST CASE  [PASS]    
