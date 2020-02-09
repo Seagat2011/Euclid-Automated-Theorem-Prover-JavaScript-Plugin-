@@ -2,7 +2,7 @@
 Notes: (curly) braces ,{}, are euclid's scope operators and are required. There must be exactly one (1) space between a brace and a token (eg. { 1 } plus { 1 } = { 2 } ),    
 and a brace cannot come in physical contact with another token (eg. Symbol.Number.Integer.Signed { 1 } )    
 
-Notes: LHS or RHS should be considered condensed.   
+Notes: LHS or RHS should be condensed.   
     
 TEST CASE  [PASS]    
     
