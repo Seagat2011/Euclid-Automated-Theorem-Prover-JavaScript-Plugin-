@@ -1,72 +1,10 @@
 ABOUT FILE(S)
-    Euclidian_rules.js  - Extensible rules-file
+    Proof.htm           - HTML5 markup / main
     GNU LICENSE         - GNU/LGNU license-file of user rights
-    logic.css           - CSS3 markup
-    logic.htm           - HTML5 markup / main
-    logic.js            - Pretty-text renderer / worker thread spawn
+    symbols.css         - CSS3 markup
+    Euclidian_rules.js  - Pretty-text renderer / worker thread spawn
     MD5.js              - MD5 hashing algorithm
-    README              - Description of euclid & associated files
-    ThreadWorker_00.js  - worker thread for logic.js
-
-
-EXAMPLE 1
-
-// example sentence structure
-f ( x ) = {1} over {sigma sqrt{2 pi} }e^-{{(x-mu)^2} over {2 sigma^2}}
-newline // aesthetic formatting
-newline
-%--------------------------------------------------------------------------
-// Includes
-/* 
-  Identities & comments 
-*/  
-x over x = 1
-x times 0 = 0
-x over 0 = undefined
-0 over x = 0
-sum from { i = 1 } to { N } x_{i minus 1} times x_i = x raised N
-
-%--------------------------------------------------------------------------
-a times b = c
-h times b = j
-j times { 1 over h } = k
-
-Prove: k times { 1 over b } = 1
-
-
-EXAMPLE 2
-
-f of x = {1} over {sigma sqrt{2 pi} }e^-{{(x-mu)^2} over {2 sigma^2}} 
-newline 
-newline
-C= pi cdot d = 2 cdot pi cdot r
-newline 
-newline
-f of x = sum from { i = 0 } to { infinity } { {f raised {(i)}(0)} over {i!} x raised i}
-newline 
-newline
-left [ matrix{1 # 2 ## 3 # 4 } right ]
-newline 
-newline
-
-
-EXAMPLE 3
-
-#proof regular-expressions
-Prove: z rlimplies(=>) za+?b+?c*
-zaacbbcac rlimplies za+?b+?c*
-ac rlimplies za+?b+?c*
-a rlimplies za+?b+?c*
-c rlimplies za+?b+?c*
-
-
-EXAMPLE 4
-
-Prove { a + b + c = d }
-x = a
-x + y + z = a
-x + y + z + b + c = d
-
+    README              - Description of euclid & associated files  
 
 HOW EUCLID WORKS (HOW EUCLID BUILDS INTERNAL ASSOCIATIONS..
 
@@ -104,7 +42,7 @@ HOW EUCLID WORKS (HOW EUCLID BUILDS INTERNAL ASSOCIATIONS..
                 
                 Notice however that the node is not collapsed any further!
                 This is to prevent non-determinism (NFA loops)
-                Operators are never used to build nodes.
+                Operators are never used to construct nodes.
 
 
 BUGFIX
@@ -131,55 +69,6 @@ BUGFIX
     
     SYMP: FormulaOperator formatting incorrect in piecewise statement
     HINT: Use html table 
-
-NOTES
-    Best strategy for theorem-proving: 
-        break theorems into proofing steps
-        migrate steps to modules then verify modules
-        After using Euclid Reasoner to generate modules which
-            guarantee coverage then
-        Euclid Logic can be used to mathematically solve the modules
-    Multiplication - a cdot b, a times b, a b ( not a x b! > axb, or a cross b > a x b )
-    Syntaxer_NFA_settings.js is extensible
-        1. note : log _ a e generates an error
-        2. open Syntaxer_NFA_settings.js and set line 59136 (underscore) = 1
-        3. refresh page
-    Connectives are aka Operators
-    CNF SAT Solvers are considered fastest
-    Are CNFs fast because they concatenate over bitfields / hash into bitmaps, 
-        which also can be matched to RegularExpressions,
-        which also maps to the English saying: 
-            I don't know the solution, 
-            but I'll recognize it when I see it
-            
-
-CODE SNIPE
-    var a={a:1,b:2}
-    Object.prototype.Clone = function(){ return this }
-    Clone.call(a)
-
-
-TODO - e solver
-    ClauseParse
-    FormulaAndClauseSetParse
-
-
-TODO - euclid
-    Euclid uses math-rule inferencing as well as programmatic logic
-    Euclid uses extensible markup, allowing extensibility/redefinition of terms
-    Mentor: (proofing strategy)
-        1   map sentence to proper grammar (to verify semantics), 
-        2   parse, using an inference rule-based substitution - 
-            (a)   try to match the largest pattern,
-            (b)   progessively match smaller patterns (Top/Down traversal)
-    Allow suggestions while typing so users dont break their rules database (eg real isa root x -vs- root hasa real x and x isa real)
-    Resync rules database upon refresh
-    Allow bipolar/zero-polarity clause insertion (so lhs/rhs insensitive insertions)
-    Add Euclidian rules (via import file) also provide the [rules] file as correct working examples to be followed
-    On errors, dump network topology (use a topology_dump() JS method)
-    Fix formatting bugs (eg x raised y raised z) to demonstrate correct formatting
-    Emit pretty-text from all windows to cssWindow
     
-HOWTO
-    &#x222b; (html) >> \u222b (JavaScript)
+    HINT: &#x222b; (html) >> \u222b (JavaScript)
 
