@@ -1,7 +1,8 @@
 ABOUT FILE(S)
-    Proof.htm           - HTML5 Prover / main
+    Prover.htm          - HTML5 Prover / main
     GNU LICENSE         - GNU/LGNU license-file of user rights
-    README              - Description of euclid & associated files  
+    README              - Description of euclid & associated files
+    AUTHORS             - Contributors
 
 HOW EUCLID WORKS (HOW EUCLID BUILDS INTERNAL ASSOCIATIONS..
 
