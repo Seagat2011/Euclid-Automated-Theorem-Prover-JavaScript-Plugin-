@@ -99,8 +99,7 @@ function _AXIOM_(){
         else
         if( // end-of-reduce ? //
         (self._id==g_code.length-1) &&
-        u.indir.match(/Auto/) &&
-        !g_code._roundPassed()
+        (u.indir.match(/Auto/) && true)
         ){
           ProofFailed = true
         }
