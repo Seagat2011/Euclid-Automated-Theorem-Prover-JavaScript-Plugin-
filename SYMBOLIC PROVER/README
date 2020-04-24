@@ -12,9 +12,9 @@ HOW EUCLID WORKS (HOW EUCLID BUILDS INTERNAL ASSOCIATIONS..
 
         Example
 
-            Prove { x times b = c }
             x = a           (00)
             a times b = c   (01)
+            Prove { x times b = c }
             
                 INTERNAL REPRESENTATION
                 
