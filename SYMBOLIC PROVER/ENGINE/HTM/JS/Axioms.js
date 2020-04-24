@@ -43,7 +43,7 @@ function _AXIOM_(){
   }
   this._reduce = function(e){
     var u = e.data
-    if(u.source.startsWith("axiom") && (u.source != self._guid) && u.indir.match(/Reduce|Auto/)){
+    if(u.source.startsWith("axiom") && self._axiom && self._basenet && (u.source != self._guid) && u.indir.match(/Reduce|Auto/)){
       var val = u.val
       self._subnetFOUND = false
       var ProofFailed = false
@@ -118,7 +118,7 @@ function _AXIOM_(){
   }
   this._expand = function(e){
     var u = e.data
-    if(u.source.startsWith("axiom") && (u.source != self._guid) && u.indir.match(/Expand/)){
+    if(u.source.startsWith("axiom") && self._axiom && self._basenet && (u.source != self._guid) && u.indir.match(/Expand/)){
       var val = u.val
       self._subnetFOUND = false
       if(self._isOnline && 
