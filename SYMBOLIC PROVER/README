@@ -1,9 +1,6 @@
 ABOUT FILE(S)
-    Proof.htm           - HTML5 markup / main
+    Proof.htm           - HTML5 Prover / main
     GNU LICENSE         - GNU/LGNU license-file of user rights
-    symbols.css         - CSS3 markup
-    Euclidian_rules.js  - Pretty-text renderer / worker thread spawn
-    MD5.js              - MD5 hashing algorithm
     README              - Description of euclid & associated files  
 
 HOW EUCLID WORKS (HOW EUCLID BUILDS INTERNAL ASSOCIATIONS..
