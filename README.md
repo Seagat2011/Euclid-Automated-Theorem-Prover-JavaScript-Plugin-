@@ -1,5 +1,5 @@
-# Euclid-Automated-Theorem-Prover-JavaScript-Plugin-
-Automated Theorem Prover written in JavaScript, CSS3 &amp; HTML5 <br/>
+# Euclid-Automated-Theorem-Prover-JavaScript-Plugin-Linux
+Automated Theorem Prover (LINUX) written in JavaScript, CSS3 &amp; HTML5 <br/>
 <br/>
 <br/>
 Euclid is separated into two (2) tools :<br/>
