@@ -91,8 +91,7 @@ function _AXIOM_(){
           self._solutionEditor.appendlog(tmpHTML.post.join(" "))
           if(solutionComplete){
             self._solutionEditor.appendlog(Proof.join(" ")+solutionComplete)
-          }
-          else{
+          } else {
             postMessage({ source:self._guid,val:Proof.join(" "),indir:u.indir },g_origin)
           }
         }
