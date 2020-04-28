@@ -96,24 +96,22 @@ function _AXIOM_(){
             postMessage({ source:self._guid,val:Proof.join(" "),indir:u.indir },g_origin)
           }
         }
-        else
-        if( // end-of-reduce ? //
-        (self._id==g_code.length-1) &&
-        (u.indir.match(/Auto/) && true)
-        ){
-          ProofFailed = true
-        }
-        g_code._resetRound()
       }
       if(self._subnetFOUND){
         console.log("Source:",u.source,"; target:",`${self._guid} (Partial Solution Found)`+solutionComplete.replace(/<br><br>/,""))
       }
-      if(ProofFailed){
-        self._solutionEditor.appendlog("<br>========( Reduce )=========<br>========( Expand )=========<br>")
-        reset("partial")
-        console.log("Prove via Reduce() Failed: Now attempting Expand()..")
-        postMessage({ source:"axiomROOT",val:g_code.Theorem.lemma,indir:"Expand" },g_origin)
-      }
+      if(u.indir=='Auto'){                
+          clearTimeout(g_code.activeThread)
+          g_code.activeThread=setTimeout(()=>{
+              if(!self._solutionEditor.innerText.match(/\nQ\.E\.D\./)){
+                  g_code._resetRound()
+                  self._solutionEditor.appendlog("<br>========( Reduce )=========<br>========( Expand )=========<br>")
+                  reset("partial")
+                  console.log("Prove via Reduce() Failed: Now attempting Expand()..")
+                  postMessage({ source:"axiomROOT",val:g_code.Theorem.lemma,indir:"Expand" },g_origin)
+              }
+          },10)
+       }
     }
   }
   this._expand = function(e){
